@@ -52,7 +52,7 @@ Choose a password (minimum 8 characters). This password is **not** stored in the
 
 ### 5. Result — your codes
 
-After encryption you see all position-dependent codes in order. From here you can:
+After encryption you see one code per word slot, listed in phrase order. From here you can:
 
 - **Copy** — clipboard (auto-clears after ~45 seconds if unchanged)
 - **To file** — save a `.txt` export

@@ -4,7 +4,7 @@
 
 # Bip39Chiper
 
-**Seed phrase protection for macOS** — hide your BIP-39 mnemonic behind a password and position-dependent codes, or recover it from saved codes later. Everything runs **offline** on your Mac.
+**Seed phrase protection for macOS** — hide your BIP-39 mnemonic behind a password and unique codes (one per word slot), or recover it from saved codes later — in any order. Everything runs **offline** on your Mac.
 
 ![Main window](screenshots/1-main.png)
 

@@ -1,5 +1,5 @@
 site_name: Bip39Chiper
-site_description: Offline macOS utility to obfuscate BIP-39 seed phrases behind position-dependent codes
+site_description: Offline macOS utility to obfuscate BIP-39 seed phrases into codes you can store separately from your password
 site_url: https://chiper.developer.pm/
 repo_url: https://github.com/li-nd/bip39-chiper-mac
 repo_name: li-nd/bip39-chiper-mac

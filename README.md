@@ -1,23 +1,48 @@
-# Bip39Chiper
+<p align="center">
+  <img src="docs/logo.png" alt="Bip39Chiper" width="180">
+</p>
 
-**Offline macOS utility to obfuscate BIP-39 seed phrases** — turn a mnemonic into position-dependent codes you can store separately from your password, then recover the phrase later.
+<h1 align="center">Bip39Chiper</h1>
 
-![Main window](docs/screenshots/1-main.png)
+<p align="center">
+  <strong>Offline macOS utility to obfuscate BIP-39 seed phrases</strong><br>
+  Turn a mnemonic into unique codes — one per word slot.<br>
+  Store them separately from your password; paste them back in <strong>any order</strong> to recover the phrase.<br>
+  Everything runs offline on your Mac.
+</p>
 
-Documentation: **[chiper.developer.pm](https://chiper.developer.pm/)**
+<p align="center">
+  <a href="https://chiper.developer.pm/"><img src="https://img.shields.io/badge/docs-chiper.developer.pm-indigo?style=flat-square" alt="Documentation"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="MIT License"></a>
+  <img src="https://img.shields.io/badge/platform-macOS-black?style=flat-square" alt="macOS">
+  <img src="https://img.shields.io/badge/BIP--39-compatible-success?style=flat-square" alt="BIP-39 compatible">
+  <img src="https://img.shields.io/badge/offline-only-informational?style=flat-square" alt="Offline only">
+</p>
+
+<p align="center">
+  <a href="https://chiper.developer.pm/">Documentation</a> ·
+  <a href="#install">Install</a> ·
+  <a href="https://github.com/li-nd/bip39-chiper-mac/issues">Issues</a> ·
+  <a href="#build">Build</a>
+</p>
+
+---
+
+<p align="center">
+  <img src="docs/screenshots/8-seed-codes-png.png" alt="Exported codes — PNG poster with crypto settings" width="90%">
+</p>
 
 ## Features
 
-- Encrypt wizard: enter or generate a BIP-39 phrase, set a password, get codes
-- Decrypt wizard: paste codes (any order), enter password, recover the phrase
-- Import `.txt` exports and apply embedded crypto settings automatically
-- Export: copy to clipboard, save `.txt`, render a PNG poster, or print
-- Optional shuffle on export (order on screen vs exported file can differ)
-- Settings for PBKDF2 iterations, derived key length, and default word count
-- Onboarding, toast notifications, clipboard auto-clear, and blur-on-background
-- 21 in-app languages with RTL support for Arabic, Hebrew, and Persian
+| | |
+|---|---|
+| **Encrypt** | Create, enter, or generate a BIP-39 phrase → one code per word |
+| **Decrypt** | Paste codes in **any order** · recover the mnemonic with your password |
+| **Import / export** | `.txt` with embedded crypto settings · PNG poster · clipboard |
+| **Configurable crypto** | PBKDF2 iterations · derived key length · default word count (12–24) |
+| **Privacy** | Blur on background · clipboard auto-clear · optional shuffle on export |
 
-## Quick start
+## Install
 
 ```bash
 brew tap li-nd/apps
@@ -25,35 +50,78 @@ brew trust li-nd/apps
 brew install --cask bip39chiper
 ```
 
-Or download a zip from [GitHub Releases](https://github.com/li-nd/bip39-chiper-mac/releases).
+Tap: [li-nd/homebrew-apps](https://github.com/li-nd/homebrew-apps). Or download a zip from [Releases](https://github.com/li-nd/bip39-chiper-mac/releases). Full notes: **[Install guide](https://chiper.developer.pm/install/)**.
 
-See [Install](https://chiper.developer.pm/install/) for Gatekeeper notes and building from source.
+> Builds are **not notarized** (ad-hoc signed). If macOS blocks the app: **System Settings → Privacy & Security → Open Anyway**, or right-click → **Open**.
 
 ## Security note
 
-Bip39Chiper is **obfuscation**, not encryption. It helps hide a seed phrase from casual observers when codes and password are stored separately. It is **not** a hardware wallet replacement. Read [Security](https://chiper.developer.pm/security/) before relying on it.
+Bip39Chiper is **obfuscation**, not encryption. It helps hide a seed phrase from casual observers when codes and password are stored separately. It is **not** a hardware wallet replacement. Read **[Security](https://chiper.developer.pm/security/)** before relying on it.
 
-## Docs
+## Screenshots
+
+### Encrypt & decrypt
+
+Four wizard screens — same window size and aspect ratio.
+
+<p align="center">
+  <img src="docs/screenshots/2-encrypt-source.png" alt="Encrypt — choose phrase source" width="48%">
+  &nbsp;
+  <img src="docs/screenshots/7-encrypt-result.png" alt="Encrypt — generated codes" width="48%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/13-decrypt-progress.png" alt="Decrypt — codes matched, slots filling in" width="48%">
+  &nbsp;
+  <img src="docs/screenshots/14-decrypt-result.png" alt="Decrypt — recovered phrase" width="48%">
+</p>
+
+### Export & settings
+
+<p align="center">
+  <img src="docs/screenshots/9-seed-codes-txt.png" alt="Exported codes — .txt file with settings headers" width="55%">
+</p>
+<p align="center">
+  <img src="docs/screenshots/15-settings-general.png" alt="Settings — General" width="48%">
+  &nbsp;
+  <img src="docs/screenshots/16-settings-encryption.png" alt="Settings — Encryption" width="48%">
+</p>
+
+## Build
+
+1. Clone **with submodules** (required for conformance tests):
+   ```bash
+   git clone --recurse-submodules https://github.com/li-nd/bip39-chiper-mac.git
+   cd bip39-chiper-mac
+   ```
+   Already cloned? `git submodule update --init --recursive`.
+2. Open `Bip39Chiper.xcodeproj` in Xcode.
+3. Select the **Bip39Chiper** scheme and run (`⌘R`).
+
+Test vectors live in [bip39-chiper-test-vectors](https://github.com/li-nd/bip39-chiper-test-vectors) (Git submodule). See **[Test vectors](https://chiper.developer.pm/test-vectors/)** for updating, running tests, and regenerating.
+
+## Documentation
+
+Published site: **[chiper.developer.pm](https://chiper.developer.pm/)**
 
 | Page | Topic |
 |------|--------|
-| [Home](https://chiper.developer.pm/) | Overview and quick start |
 | [Install](https://chiper.developer.pm/install/) | Homebrew, Releases, build from source |
 | [Usage](https://chiper.developer.pm/usage/) | Encrypt/decrypt workflow with screenshots |
 | [Security](https://chiper.developer.pm/security/) | Crypto overview and threat model |
 | [Algorithm specification](https://chiper.developer.pm/algorithm-spec/) | Normative v1 scheme for independent implementations |
-| [Test vectors](https://github.com/li-nd/bip39-chiper-test-vectors) | JSON conformance vectors (separate repo; Git submodule in this project) |
+| [Test vectors](https://chiper.developer.pm/test-vectors/) | Submodule setup and conformance tests |
 | [Troubleshooting](https://chiper.developer.pm/troubleshooting/) | Common issues |
 
-## Development
-
-Clone **with submodules** (required for conformance tests):
+### Preview docs locally
 
 ```bash
-git clone --recurse-submodules https://github.com/li-nd/bip39-chiper-mac.git
+python3 -m venv .venv-docs
+source .venv-docs/bin/activate
+pip install -r requirements-docs.txt
+mkdocs serve
 ```
 
-Already cloned? Run `git submodule update --init --recursive`. See [Test vectors](https://chiper.developer.pm/test-vectors/) for updating the submodule, running tests, and regenerating vectors.
+Pages deploy from `main` via [`.github/workflows/docs.yml`](.github/workflows/docs.yml).
 
 ## License
 

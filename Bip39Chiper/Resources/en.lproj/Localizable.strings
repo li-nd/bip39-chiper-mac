@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Seed phrase protection";
+"home.subtitle" = "Hide your phrase behind a password or recover it from saved codes.";
+"home.encrypt" = "Encrypt";
+"home.decrypt" = "Decrypt";
+"home.encryptSubtitle" = "Create or use your phrase and get codes";
+"home.decryptSubtitle" = "Enter codes and password to recover your phrase";
+"home.settingsHelp" = "Settings";
+"home.settingsSummary" = "Current: %d words · %@ iter · key %d";
+
+/* Common */
+"common.next" = "Next";
+"common.show" = "Show";
+"common.hide" = "Hide";
+"common.paste" = "Paste";
+"common.clear" = "Clear";
+"common.copy" = "Copy";
+"common.copied" = "Copied";
+"common.toFile" = "To file";
+"common.home" = "Home";
+"common.again" = "Again";
+"common.apply" = "Apply";
+"common.cancel" = "Cancel";
+"common.understood" = "Got it";
+"common.add" = "Add";
+"common.password" = "Password";
+"common.close" = "Close";
+"common.generate" = "Generate";
+"common.encrypt" = "Encrypt";
+"common.validate" = "Validate";
+"common.progress" = "Progress";
+"common.poster" = "Image";
+"common.busyPassword" = "Processing password…";
+"common.busyCheckingToken" = "Checking code…";
+"common.toastCopiedClipboard" = "Copied. Clipboard clears in 45 sec.";
+
+/* Steps */
+"step.source" = "Source";
+"step.phrase" = "Phrase";
+"step.password" = "Password";
+"step.codes" = "Codes";
+"step.done" = "Done";
+
+/* Encrypt */
+"encrypt.titleCreate" = "New phrase";
+"encrypt.titleEnter" = "Existing phrase";
+"encrypt.subtitleSource" = "Where shall we start?";
+"encrypt.subtitleCreate" = "Generate a new seed phrase.";
+"encrypt.subtitleEnter" = "Enter or paste an existing seed phrase.";
+"encrypt.subtitlePassword" = "Choose a strong password and confirm it.";
+"encrypt.subtitleResult" = "Save the codes. Storage order does not matter.";
+"encrypt.sourceNewTitle" = "New seed phrase";
+"encrypt.sourceNewSubtitle" = "Generate and encrypt";
+"encrypt.sourceExistingTitle" = "Existing seed phrase";
+"encrypt.sourceExistingSubtitle" = "Enter or paste manually";
+"encrypt.shuffleExport" = "Shuffle when copying / saving";
+"encrypt.shuffleExportHint" = "On screen the order is unchanged; export shuffles.";
+"encrypt.toastDone" = "Done. Save the codes in a safe place.";
+"encrypt.toastPhrasePasted" = "Phrase pasted from clipboard.";
+
+/* Phrase */
+"phrase.length" = "Phrase length";
+"phrase.notCreated" = "Phrase not created yet";
+"phrase.notCreatedHint" = "Choose length and tap Generate.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Choose phrase length. Default is from settings.";
+"decrypt.subtitlePassword" = "Enter the password used when encrypting.";
+"decrypt.subtitleCodes" = "Enter codes or load a file. Order does not matter.";
+"decrypt.subtitleResult" = "Phrase recovered. Store it in a safe place.";
+"decrypt.passwordHint" = "Must match the settings used when encrypting.";
+"decrypt.enterCode" = "Enter code";
+"decrypt.pickCodesFile" = "Choose a codes file (.txt)";
+"decrypt.wordLength" = "Length: %d (from settings)";
+"decrypt.toastPhraseRestored" = "Phrase recovered.";
+"decrypt.toastWordFound" = "Word %d: position found (%d/%d).";
+"decrypt.toastAdded" = "Added. %d/%d.";
+"decrypt.toastAddedBatch" = "Added %d. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Word %d of %d";
+"seed.allWordsEntered" = "All words entered";
+"seed.placeholder" = "Start typing a word or paste a phrase…";
+"seed.hint" = "Suggestions appear from the 4th letter. Paste a full phrase (⌘V).";
+"seed.phraseComplete" = "Phrase complete.";
+"seed.helpReplaceClipboard" = "Replace phrase from clipboard";
+"seed.helpPastePhrase" = "Paste seed phrase from clipboard (⇧⌘V)";
+"seed.helpClearAll" = "Clear all words";
+"seed.toastClipboardEmpty" = "Clipboard is empty — copy a seed phrase and try again.";
+"seed.toastFillAll" = "Fill all %d words.";
+"seed.toastValidated" = "Phrase verified.";
+
+/* Password */
+"password.minPlaceholder" = "At least 8 characters";
+"password.confirmPlaceholder" = "Repeat password";
+"password.mismatchInline" = "Passwords do not match";
+"password.strength.weak" = "Weak";
+"password.strength.fair" = "Fair";
+"password.strength.strong" = "Strong";
+
+/* Drop zone */
+"dropzone.title" = "Load codes file";
+"dropzone.subtitle" = "Drop a .txt here or click to choose";
+
+/* Word search */
+"wordSearch.noMatch" = "No BIP-39 word with this prefix";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Image preview";
+"poster.savePNG" = "Save PNG";
+
+/* Import */
+"import.words" = "Words";
+"import.version" = "Version";
+"import.iterations" = "Iterations";
+"import.keyBytes" = "Key";
+"import.confirmTitle" = "Settings from file";
+"import.confirmMessage" = "Apply settings from the file for decryption?";
+"import.fileLoaded" = "File loaded";
+"import.changeFile" = "Change";
+
+/* Word count */
+"wordCount.resetTitle" = "Reset entered words?";
+"wordCount.resetMessage" = "Changing length will clear the current phrase.";
+"wordCount.resetConfirm" = "Reset";
+"wordCount.label" = "%d words";
+"wordCount.label21" = "21 words";
+"wordCount.label24" = "24 words";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Clipboard is empty.";
+"toast.wrongWordCount" = "Clipboard has %d words — need 12, 15, 18, 21, or 24.";
+"toast.wordNotInDictionary" = "Word %d «%@» not found in dictionary.";
+
+/* Exit */
+"exit.clearTitle" = "Exit and clear data?";
+"exit.clearConfirm" = "Exit and clear";
+"exit.clearMessage" = "Entered phrase and password will be removed from memory.";
+
+/* Onboarding */
+"onboarding.title" = "How to use";
+"onboarding.1" = "Keep the password separate from the codes.";
+"onboarding.2" = "File settings must match when encrypting and decrypting.";
+"onboarding.3" = "The app works fully offline.";
+
+/* Language */
+"settings.sectionLanguage" = "Language";
+"settings.language" = "App language";
+"settings.languageSystem" = "System";
+"settings.tabGeneral" = "General";
+"settings.tabEncryption" = "Encryption";
+
+"settings.sectionHelp" = "Help";
+"settings.showOnboarding" = "Show onboarding again";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.sectionFormat" = "Format";
+"settings.sectionDefaultPhrase" = "Default phrase";
+"settings.sectionPassword" = "Password protection";
+"settings.version" = "Version";
+"settings.defaultPhraseLength" = "Default seed phrase length";
+"settings.compat" = "Settings must match when encrypting and decrypting. Otherwise codes won't open.";
+"settings.iterations" = "Iterations";
+"settings.keySize" = "Key size";
+"settings.iterationsHint" = "More iterations — slower unlock, harder to brute-force.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Position %d, word hidden";
+"a11y.progress" = "%d of %d";
+"a11y.stepNamed" = "%@, %d of %d";
+"a11y.stepGeneric" = "Step %d of %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Enter a password.";
+"error.hasher.passwordTooShort" = "Password too short — minimum 8 characters.";
+"error.hasher.keyDerivationFailed" = "Could not process password.";
+"error.hasher.invalidWordCount" = "Invalid item count: %d. Need 12, 15, 18, 21, or 24.";
+"error.hasher.unknownWord" = "Word «%@» is not in the dictionary.";
+"error.hasher.invalidTokenFormat" = "Invalid code format «%@».";
+"error.hasher.tokenNotFound" = "Code not found. Check password, phrase length, and spelling.";
+"error.hasher.ambiguousToken" = "Ambiguous match. Check settings and password.";
+"error.hasher.slotConflict" = "Conflict: position %d is already filled.";
+"error.hasher.passwordMismatch" = "Password and confirmation do not match.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Could not obtain cryptographically secure randomness.";
+"error.bip39.invalidEntropyLength" = "Invalid entropy length for BIP-39.";
+"error.bip39.wordlistCorrupted" = "BIP-39 wordlist corrupted (expected 2048 words).";
+"error.bip39.invalidWord" = "Word «%@» is not in the BIP-39 dictionary.";
+"error.bip39.invalidChecksum" = "Invalid BIP-39 checksum.";
+
+/* Import errors */
+"error.import.unreadable" = "Could not read file.";
+"error.import.empty" = "File is empty.";
+"error.import.noTokens" = "No codes found in file.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Created by Markus Lind";
+"menu.about" = "About %@";
+"menu.navigate" = "Navigate";
+"about.tagline" = "Offline obfuscation for BIP-39 seed phrases.";
+"about.offline" = "Works fully offline · nothing is sent over the network";

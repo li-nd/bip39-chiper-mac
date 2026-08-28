@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Proteção de frase-semente";
+"home.subtitle" = "Oculte sua frase com uma senha ou recupere-a a partir dos códigos salvos.";
+"home.encrypt" = "Criptografar";
+"home.decrypt" = "Descriptografar";
+"home.encryptSubtitle" = "Crie ou informe sua frase e obtenha códigos";
+"home.decryptSubtitle" = "Informe códigos e senha para recuperar sua frase";
+"home.settingsHelp" = "Ajustes";
+"home.settingsSummary" = "Atual: %d palavras · %@ iter · chave %d";
+
+/* Common */
+"common.next" = "Avançar";
+"common.show" = "Mostrar";
+"common.hide" = "Ocultar";
+"common.paste" = "Colar";
+"common.clear" = "Limpar";
+"common.copy" = "Copiar";
+"common.copied" = "Copiado";
+"common.toFile" = "Para arquivo";
+"common.home" = "Início";
+"common.again" = "De novo";
+"common.apply" = "Aplicar";
+"common.cancel" = "Cancelar";
+"common.understood" = "Entendi";
+"common.add" = "Adicionar";
+"common.password" = "Senha";
+"common.close" = "Fechar";
+"common.generate" = "Gerar";
+"common.encrypt" = "Criptografar";
+"common.validate" = "Validar";
+"common.progress" = "Progresso";
+"common.poster" = "Imagem";
+"common.busyPassword" = "Processando senha…";
+"common.busyCheckingToken" = "Verificando código…";
+"common.toastCopiedClipboard" = "Copiado. A área de transferência será limpa em 45 s.";
+
+/* Steps */
+"step.source" = "Origem";
+"step.phrase" = "Frase";
+"step.password" = "Senha";
+"step.codes" = "Códigos";
+"step.done" = "Concluído";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Frase nova";
+"encrypt.titleEnter" = "Frase existente";
+"encrypt.subtitleSource" = "Por onde começamos?";
+"encrypt.subtitleCreate" = "Gere uma nova frase-semente.";
+"encrypt.subtitleEnter" = "Digite ou cole uma frase-semente existente.";
+"encrypt.subtitlePassword" = "Escolha uma senha forte e confirme.";
+"encrypt.subtitleResult" = "Salve os códigos. A ordem não importa.";
+"encrypt.sourceNewTitle" = "Frase-semente nova";
+"encrypt.sourceNewSubtitle" = "Gerar e criptografar";
+"encrypt.sourceExistingTitle" = "Frase-semente existente";
+"encrypt.sourceExistingSubtitle" = "Digitar ou colar manualmente";
+"encrypt.shuffleExport" = "Embaralhar ao copiar / salvar";
+"encrypt.shuffleExportHint" = "Na tela a ordem permanece; na exportação é embaralhada.";
+"encrypt.toastDone" = "Concluído. Guarde os códigos em local seguro.";
+"encrypt.toastPhrasePasted" = "Frase colada da área de transferência.";
+
+/* Phrase */
+"phrase.length" = "Tamanho da frase";
+"phrase.notCreated" = "Frase ainda não criada";
+"phrase.notCreatedHint" = "Escolha o tamanho e toque em Gerar.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Escolha o tamanho. Padrão vem dos ajustes.";
+"decrypt.subtitlePassword" = "Digite a senha usada na criptografia.";
+"decrypt.subtitleCodes" = "Digite códigos ou carregue um arquivo. A ordem não importa.";
+"decrypt.subtitleResult" = "Frase recuperada. Guarde em local seguro.";
+"decrypt.passwordHint" = "Deve coincidir com os ajustes usados na criptografia.";
+"decrypt.enterCode" = "Digitar código";
+"decrypt.pickCodesFile" = "Escolher arquivo de códigos (.txt)";
+"decrypt.wordLength" = "Tamanho: %d (dos ajustes)";
+"decrypt.toastPhraseRestored" = "Frase recuperada.";
+"decrypt.toastWordFound" = "Palavra %d: posição encontrada (%d/%d).";
+"decrypt.toastAdded" = "Adicionado. %d/%d.";
+"decrypt.toastAddedBatch" = "%d adicionados. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Palavra %d de %d";
+"seed.allWordsEntered" = "Todas as palavras preenchidas";
+"seed.placeholder" = "Digite uma palavra ou cole uma frase…";
+"seed.hint" = "Sugestões a partir da 4ª letra. Cole a frase inteira (⌘V).";
+"seed.phraseComplete" = "Frase completa.";
+"seed.helpReplaceClipboard" = "Substituir frase da área de transferência";
+"seed.helpPastePhrase" = "Colar frase-semente (⇧⌘V)";
+"seed.helpClearAll" = "Limpar todas as palavras";
+"seed.toastClipboardEmpty" = "Área de transferência vazia — copie uma frase-semente e tente de novo.";
+"seed.toastFillAll" = "Preencha as %d palavras.";
+"seed.toastValidated" = "Frase verificada.";
+
+/* Password */
+"password.minPlaceholder" = "Pelo menos 8 caracteres";
+"password.confirmPlaceholder" = "Repetir senha";
+"password.mismatchInline" = "As senhas não coincidem";
+"password.strength.weak" = "Fraca";
+"password.strength.fair" = "Razoável";
+"password.strength.strong" = "Forte";
+
+/* Drop zone */
+"dropzone.title" = "Carregar arquivo de códigos";
+"dropzone.subtitle" = "Solte um .txt aqui ou clique para escolher";
+
+/* Word search */
+"wordSearch.noMatch" = "Nenhuma palavra BIP-39 com este prefixo";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Pré-visualização da imagem";
+"poster.savePNG" = "Salvar PNG";
+
+/* Import */
+"import.words" = "Palavras";
+"import.version" = "Versão";
+"import.iterations" = "Iterações";
+"import.keyBytes" = "Chave";
+"import.confirmTitle" = "Ajustes do arquivo";
+"import.confirmMessage" = "Aplicar ajustes do arquivo para descriptografar?";
+"import.fileLoaded" = "Arquivo carregado";
+"import.changeFile" = "Alterar";
+
+/* Word count */
+"wordCount.resetTitle" = "Redefinir palavras digitadas?";
+"wordCount.resetMessage" = "Alterar o tamanho apagará a frase atual.";
+"wordCount.resetConfirm" = "Redefinir";
+"wordCount.label" = "%d palavras";
+"wordCount.label21" = "21 palavras";
+"wordCount.label24" = "24 palavras";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "A área de transferência está vazia.";
+"toast.wrongWordCount" = "A área de transferência tem %d palavras — são necessárias 12, 15, 18, 21 ou 24.";
+"toast.wordNotInDictionary" = "Palavra %d «%@» não encontrada no dicionário.";
+
+/* Exit */
+"exit.clearTitle" = "Sair e apagar dados?";
+"exit.clearConfirm" = "Sair e apagar";
+"exit.clearMessage" = "A frase e a senha digitadas serão removidas da memória.";
+
+/* Onboarding */
+"onboarding.title" = "Como usar";
+"onboarding.1" = "Guarde a senha separada dos códigos.";
+"onboarding.2" = "Os ajustes do arquivo devem coincidir na criptografia e descriptografia.";
+"onboarding.3" = "O app funciona totalmente offline.";
+
+/* Language */
+"settings.sectionLanguage" = "Idioma";
+"settings.language" = "Idioma do app";
+"settings.languageSystem" = "Sistema";
+"settings.tabGeneral" = "Geral";
+"settings.tabEncryption" = "Criptografia";
+
+"settings.sectionHelp" = "Ajuda";
+"settings.showOnboarding" = "Mostrar introdução novamente";
+
+/* Settings */
+"settings.title" = "Ajustes";
+"settings.sectionFormat" = "Formato";
+"settings.sectionDefaultPhrase" = "Frase padrão";
+"settings.sectionPassword" = "Proteção por senha";
+"settings.version" = "Versão";
+"settings.defaultPhraseLength" = "Tamanho padrão da frase-semente";
+"settings.compat" = "Os ajustes devem coincidir na criptografia e descriptografia. Caso contrário, os códigos não abrirão.";
+"settings.iterations" = "Iterações";
+"settings.keySize" = "Tamanho da chave";
+"settings.iterationsHint" = "Mais iterações — desbloqueio mais lento, mais difícil de forçar.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Posição %d, palavra oculta";
+"a11y.progress" = "%d de %d";
+"a11y.stepNamed" = "%@, %d de %d";
+"a11y.stepGeneric" = "Etapa %d de %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Digite uma senha.";
+"error.hasher.passwordTooShort" = "Senha muito curta — mínimo 8 caracteres.";
+"error.hasher.keyDerivationFailed" = "Não foi possível processar a senha.";
+"error.hasher.invalidWordCount" = "Quantidade inválida: %d. São necessárias 12, 15, 18, 21 ou 24.";
+"error.hasher.unknownWord" = "A palavra «%@» não está no dicionário.";
+"error.hasher.invalidTokenFormat" = "Formato de código inválido «%@».";
+"error.hasher.tokenNotFound" = "Código não encontrado. Verifique senha, tamanho e ortografia.";
+"error.hasher.ambiguousToken" = "Correspondência ambígua. Verifique ajustes e senha.";
+"error.hasher.slotConflict" = "Conflito: a posição %d já está ocupada.";
+"error.hasher.passwordMismatch" = "A senha e a confirmação não coincidem.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Não foi possível obter aleatoriedade criptograficamente segura.";
+"error.bip39.invalidEntropyLength" = "Tamanho de entropia inválido para BIP-39.";
+"error.bip39.wordlistCorrupted" = "Lista BIP-39 corrompida (esperadas 2048 palavras).";
+"error.bip39.invalidWord" = "A palavra «%@» não está no dicionário BIP-39.";
+"error.bip39.invalidChecksum" = "Checksum BIP-39 inválido.";
+
+/* Import errors */
+"error.import.unreadable" = "Não foi possível ler o arquivo.";
+"error.import.empty" = "O arquivo está vazio.";
+"error.import.noTokens" = "Nenhum código encontrado no arquivo.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Criado por Markus Lind";
+"menu.about" = "Sobre o %@";
+"menu.navigate" = "Navegar";
+"about.tagline" = "Ofuscação offline para frases-semente BIP-39.";
+"about.offline" = "Funciona totalmente offline · nada é enviado pela rede";

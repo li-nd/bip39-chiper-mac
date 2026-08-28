@@ -1,0 +1,3 @@
+[submodule "test-vectors"]
+	path = test-vectors
+	url = https://github.com/li-nd/bip39-chiper-test-vectors.git

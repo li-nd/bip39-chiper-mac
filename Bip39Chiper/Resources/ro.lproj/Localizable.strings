@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Protecția frazei seed";
+"home.subtitle" = "Ascunde fraza cu o parolă sau recupereaz-o din codurile salvate.";
+"home.encrypt" = "Criptare";
+"home.decrypt" = "Decriptare";
+"home.encryptSubtitle" = "Creează sau introdu fraza și obține coduri";
+"home.decryptSubtitle" = "Introdu codurile și parola pentru a recupera fraza";
+"home.settingsHelp" = "Setări";
+"home.settingsSummary" = "Actual: %d cuvinte · %@ iter · cheie %d";
+
+/* Common */
+"common.next" = "Următorul";
+"common.show" = "Afișează";
+"common.hide" = "Ascunde";
+"common.paste" = "Lipește";
+"common.clear" = "Șterge";
+"common.copy" = "Copiază";
+"common.copied" = "Copiat";
+"common.toFile" = "În fișier";
+"common.home" = "Acasă";
+"common.again" = "Din nou";
+"common.apply" = "Aplică";
+"common.cancel" = "Anulează";
+"common.understood" = "Am înțeles";
+"common.add" = "Adaugă";
+"common.password" = "Parolă";
+"common.close" = "Închide";
+"common.generate" = "Generează";
+"common.encrypt" = "Criptare";
+"common.validate" = "Validează";
+"common.progress" = "Progres";
+"common.poster" = "Imagine";
+"common.busyPassword" = "Se procesează parola…";
+"common.busyCheckingToken" = "Se verifică codul…";
+"common.toastCopiedClipboard" = "Copiat. Clipboardul se șterge în 45 sec.";
+
+/* Steps */
+"step.source" = "Sursă";
+"step.phrase" = "Frază";
+"step.password" = "Parolă";
+"step.codes" = "Coduri";
+"step.done" = "Gata";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Frază nouă";
+"encrypt.titleEnter" = "Frază existentă";
+"encrypt.subtitleSource" = "De unde începem?";
+"encrypt.subtitleCreate" = "Generează o frază seed nouă.";
+"encrypt.subtitleEnter" = "Introdu sau lipește o frază seed existentă.";
+"encrypt.subtitlePassword" = "Alege o parolă puternică și confirm-o.";
+"encrypt.subtitleResult" = "Salvează codurile. Ordinea nu contează.";
+"encrypt.sourceNewTitle" = "Frază seed nouă";
+"encrypt.sourceNewSubtitle" = "Generează și criptează";
+"encrypt.sourceExistingTitle" = "Frază seed existentă";
+"encrypt.sourceExistingSubtitle" = "Introdu sau lipește manual";
+"encrypt.shuffleExport" = "Amestecă la copiere / salvare";
+"encrypt.shuffleExportHint" = "Pe ecran ordinea rămâne; la export se amestecă.";
+"encrypt.toastDone" = "Gata. Păstrează codurile într-un loc sigur.";
+"encrypt.toastPhrasePasted" = "Frază lipită din clipboard.";
+
+/* Phrase */
+"phrase.length" = "Lungimea frazei";
+"phrase.notCreated" = "Fraza nu a fost creată încă";
+"phrase.notCreatedHint" = "Alege lungimea și apasă Generează.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Alege lungimea. Implicit din setări.";
+"decrypt.subtitlePassword" = "Introdu parola folosită la criptare.";
+"decrypt.subtitleCodes" = "Introdu coduri sau încarcă un fișier. Ordinea nu contează.";
+"decrypt.subtitleResult" = "Frază recuperată. Păstreaz-o în siguranță.";
+"decrypt.passwordHint" = "Trebuie să corespundă setărilor de la criptare.";
+"decrypt.enterCode" = "Introdu cod";
+"decrypt.pickCodesFile" = "Alege fișier coduri (.txt)";
+"decrypt.wordLength" = "Lungime: %d (din setări)";
+"decrypt.toastPhraseRestored" = "Frază recuperată.";
+"decrypt.toastWordFound" = "Cuvânt %d: poziție găsită (%d/%d).";
+"decrypt.toastAdded" = "Adăugat. %d/%d.";
+"decrypt.toastAddedBatch" = "Adăugate %d. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Cuvânt %d din %d";
+"seed.allWordsEntered" = "Toate cuvintele introduse";
+"seed.placeholder" = "Scrie un cuvânt sau lipește o frază…";
+"seed.hint" = "Sugestii de la a 4-a literă. Lipește fraza completă (⌘V).";
+"seed.phraseComplete" = "Frază completă.";
+"seed.helpReplaceClipboard" = "Înlocuiește fraza din clipboard";
+"seed.helpPastePhrase" = "Lipește fraza seed (⇧⌘V)";
+"seed.helpClearAll" = "Șterge toate cuvintele";
+"seed.toastClipboardEmpty" = "Clipboard gol — copiază o frază seed și încearcă din nou.";
+"seed.toastFillAll" = "Completează toate cele %d cuvinte.";
+"seed.toastValidated" = "Frază verificată.";
+
+/* Password */
+"password.minPlaceholder" = "Cel puțin 8 caractere";
+"password.confirmPlaceholder" = "Repetă parola";
+"password.mismatchInline" = "Parolele nu coincid";
+"password.strength.weak" = "Slabă";
+"password.strength.fair" = "Medie";
+"password.strength.strong" = "Puternică";
+
+/* Drop zone */
+"dropzone.title" = "Încarcă fișier coduri";
+"dropzone.subtitle" = "Trage un .txt aici sau click pentru a alege";
+
+/* Word search */
+"wordSearch.noMatch" = "Niciun cuvânt BIP-39 cu acest prefix";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Previzualizare imagine";
+"poster.savePNG" = "Salvează PNG";
+
+/* Import */
+"import.words" = "Cuvinte";
+"import.version" = "Versiune";
+"import.iterations" = "Iterații";
+"import.keyBytes" = "Cheie";
+"import.confirmTitle" = "Setări din fișier";
+"import.confirmMessage" = "Aplici setările din fișier pentru decriptare?";
+"import.fileLoaded" = "Fișier încărcat";
+"import.changeFile" = "Schimbă";
+
+/* Word count */
+"wordCount.resetTitle" = "Resetezi cuvintele introduse?";
+"wordCount.resetMessage" = "Schimbarea lungimii va șterge fraza curentă.";
+"wordCount.resetConfirm" = "Resetează";
+"wordCount.label" = "%d cuvinte";
+"wordCount.label21" = "21 cuvinte";
+"wordCount.label24" = "24 cuvinte";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Clipboardul este gol.";
+"toast.wrongWordCount" = "Clipboardul are %d cuvinte — sunt necesare 12, 15, 18, 21 sau 24.";
+"toast.wordNotInDictionary" = "Cuvânt %d «%@» negăsit în dicționar.";
+
+/* Exit */
+"exit.clearTitle" = "Ieși și ștergi datele?";
+"exit.clearConfirm" = "Ieși și șterge";
+"exit.clearMessage" = "Fraza și parola introduse vor fi eliminate din memorie.";
+
+/* Onboarding */
+"onboarding.title" = "Cum se folosește";
+"onboarding.1" = "Păstrează parola separat de coduri.";
+"onboarding.2" = "Setările fișierului trebuie să coincidă la criptare și decriptare.";
+"onboarding.3" = "Aplicația funcționează complet offline.";
+
+/* Language */
+"settings.sectionLanguage" = "Limbă";
+"settings.language" = "Limba aplicației";
+"settings.languageSystem" = "Sistem";
+"settings.tabGeneral" = "General";
+"settings.tabEncryption" = "Criptare";
+
+"settings.sectionHelp" = "Ajutor";
+"settings.showOnboarding" = "Arată din nou introducerea";
+
+/* Settings */
+"settings.title" = "Setări";
+"settings.sectionFormat" = "Format";
+"settings.sectionDefaultPhrase" = "Frază implicită";
+"settings.sectionPassword" = "Protecție prin parolă";
+"settings.version" = "Versiune";
+"settings.defaultPhraseLength" = "Lungime implicită frază seed";
+"settings.compat" = "Setările trebuie să coincidă la criptare și decriptare. Altfel codurile nu se deschid.";
+"settings.iterations" = "Iterații";
+"settings.keySize" = "Dimensiune cheie";
+"settings.iterationsHint" = "Mai multe iterații — deblocare mai lentă, mai greu de forțat.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Poziția %d, cuvânt ascuns";
+"a11y.progress" = "%d din %d";
+"a11y.stepNamed" = "%@, %d din %d";
+"a11y.stepGeneric" = "Pasul %d din %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Introdu o parolă.";
+"error.hasher.passwordTooShort" = "Parolă prea scurtă — minimum 8 caractere.";
+"error.hasher.keyDerivationFailed" = "Parola nu a putut fi procesată.";
+"error.hasher.invalidWordCount" = "Număr invalid: %d. Sunt necesare 12, 15, 18, 21 sau 24.";
+"error.hasher.unknownWord" = "Cuvântul «%@» nu este în dicționar.";
+"error.hasher.invalidTokenFormat" = "Format cod invalid «%@».";
+"error.hasher.tokenNotFound" = "Cod negăsit. Verifică parola, lungimea și ortografia.";
+"error.hasher.ambiguousToken" = "Potrivire ambiguă. Verifică setările și parola.";
+"error.hasher.slotConflict" = "Conflict: poziția %d este deja ocupată.";
+"error.hasher.passwordMismatch" = "Parola și confirmarea nu coincid.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Nu s-a putut obține aleatorietate criptografic sigură.";
+"error.bip39.invalidEntropyLength" = "Lungime entropie invalidă pentru BIP-39.";
+"error.bip39.wordlistCorrupted" = "Lista BIP-39 coruptă (așteptate 2048 cuvinte).";
+"error.bip39.invalidWord" = "Cuvântul «%@» nu este în dicționarul BIP-39.";
+"error.bip39.invalidChecksum" = "Checksum BIP-39 invalid.";
+
+/* Import errors */
+"error.import.unreadable" = "Fișierul nu a putut fi citit.";
+"error.import.empty" = "Fișierul este gol.";
+"error.import.noTokens" = "Nu s-au găsit coduri în fișier.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Creat de Markus Lind";
+"menu.about" = "Despre %@";
+"menu.navigate" = "Navigare";
+"about.tagline" = "Obfuscare offline pentru fraze seed BIP-39.";
+"about.offline" = "Funcționează complet offline · nimic nu este trimis prin rețea";

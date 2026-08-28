@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "حماية عبارة الاسترداد";
+"home.subtitle" = "أخفِ عبارتك بكلمة مرور أو استعدها من الرموز المحفوظة.";
+"home.encrypt" = "تشفير";
+"home.decrypt" = "فك التشفير";
+"home.encryptSubtitle" = "أنشئ عبارتك أو أدخلها واحصل على الرموز";
+"home.decryptSubtitle" = "أدخل الرموز وكلمة المرور لاسترداد عبارتك";
+"home.settingsHelp" = "الإعدادات";
+"home.settingsSummary" = "الحالي: %d كلمة · %@ تكرار · مفتاح %d";
+
+/* Common */
+"common.next" = "التالي";
+"common.show" = "إظهار";
+"common.hide" = "إخفاء";
+"common.paste" = "لصق";
+"common.clear" = "مسح";
+"common.copy" = "نسخ";
+"common.copied" = "تم النسخ";
+"common.toFile" = "إلى ملف";
+"common.home" = "الرئيسية";
+"common.again" = "مرة أخرى";
+"common.apply" = "تطبيق";
+"common.cancel" = "إلغاء";
+"common.understood" = "فهمت";
+"common.add" = "إضافة";
+"common.password" = "كلمة المرور";
+"common.close" = "إغلاق";
+"common.generate" = "إنشاء";
+"common.encrypt" = "تشفير";
+"common.validate" = "تحقق";
+"common.progress" = "التقدم";
+"common.poster" = "صورة";
+"common.busyPassword" = "جاري معالجة كلمة المرور…";
+"common.busyCheckingToken" = "جاري التحقق من الرمز…";
+"common.toastCopiedClipboard" = "تم النسخ. سيتم مسح الحافظة خلال 45 ثانية.";
+
+/* Steps */
+"step.source" = "المصدر";
+"step.phrase" = "العبارة";
+"step.password" = "كلمة المرور";
+"step.codes" = "الرموز";
+"step.done" = "تم";
+
+/* Encrypt */
+"encrypt.titleCreate" = "عبارة جديدة";
+"encrypt.titleEnter" = "عبارة موجودة";
+"encrypt.subtitleSource" = "من أين نبدأ؟";
+"encrypt.subtitleCreate" = "أنشئ عبارة استرداد جديدة.";
+"encrypt.subtitleEnter" = "أدخل أو الصق عبارة استرداد موجودة.";
+"encrypt.subtitlePassword" = "اختر كلمة مرور قوية وأكّدها.";
+"encrypt.subtitleResult" = "احفظ الرموز. الترتيب لا يهم.";
+"encrypt.sourceNewTitle" = "عبارة استرداد جديدة";
+"encrypt.sourceNewSubtitle" = "إنشاء وتشفير";
+"encrypt.sourceExistingTitle" = "عبارة استرداد موجودة";
+"encrypt.sourceExistingSubtitle" = "إدخال أو لصق يدويًا";
+"encrypt.shuffleExport" = "خلط عند النسخ / الحفظ";
+"encrypt.shuffleExportHint" = "على الشاشة يبقى الترتيب؛ عند التصدير يُخلَط.";
+"encrypt.toastDone" = "تم. احفظ الرموز في مكان آمن.";
+"encrypt.toastPhrasePasted" = "تم لصق العبارة من الحافظة.";
+
+/* Phrase */
+"phrase.length" = "طول العبارة";
+"phrase.notCreated" = "لم تُنشأ العبارة بعد";
+"phrase.notCreatedHint" = "اختر الطول واضغط إنشاء.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "اختر طول العبارة. الافتراضي من الإعدادات.";
+"decrypt.subtitlePassword" = "أدخل كلمة المرور المستخدمة عند التشفير.";
+"decrypt.subtitleCodes" = "أدخل الرموز أو حمّل ملفًا. الترتيب لا يهم.";
+"decrypt.subtitleResult" = "تم استرداد العبارة. احفظها في مكان آمن.";
+"decrypt.passwordHint" = "يجب أن تطابق الإعدادات المستخدمة عند التشفير.";
+"decrypt.enterCode" = "أدخل الرمز";
+"decrypt.pickCodesFile" = "اختر ملف الرموز (.txt)";
+"decrypt.wordLength" = "الطول: %d (من الإعدادات)";
+"decrypt.toastPhraseRestored" = "تم استرداد العبارة.";
+"decrypt.toastWordFound" = "الكلمة %d: وُجدت الموضع (%d/%d).";
+"decrypt.toastAdded" = "تمت الإضافة. %d/%d.";
+"decrypt.toastAddedBatch" = "تمت إضافة %d. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "الكلمة %d من %d";
+"seed.allWordsEntered" = "تم إدخال جميع الكلمات";
+"seed.placeholder" = "اكتب كلمة أو الصق عبارة…";
+"seed.hint" = "اقتراحات من الحرف الرابع. الصق العبارة كاملة (⌘V).";
+"seed.phraseComplete" = "العبارة مكتملة.";
+"seed.helpReplaceClipboard" = "استبدال العبارة من الحافظة";
+"seed.helpPastePhrase" = "لصق عبارة الاسترداد (⇧⌘V)";
+"seed.helpClearAll" = "مسح جميع الكلمات";
+"seed.toastClipboardEmpty" = "الحافظة فارغة — انسخ عبارة استرداد وحاول مجددًا.";
+"seed.toastFillAll" = "املأ جميع الـ %d كلمات.";
+"seed.toastValidated" = "تم التحقق من العبارة.";
+
+/* Password */
+"password.minPlaceholder" = "8 أحرف على الأقل";
+"password.confirmPlaceholder" = "أعد كلمة المرور";
+"password.mismatchInline" = "كلمتا المرور غير متطابقتين";
+"password.strength.weak" = "ضعيفة";
+"password.strength.fair" = "متوسطة";
+"password.strength.strong" = "قوية";
+
+/* Drop zone */
+"dropzone.title" = "تحميل ملف الرموز";
+"dropzone.subtitle" = "أسقط ملف .txt هنا أو انقر للاختيار";
+
+/* Word search */
+"wordSearch.noMatch" = "لا توجد كلمة BIP-39 بهذا البادئة";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "معاينة الصورة";
+"poster.savePNG" = "حفظ PNG";
+
+/* Import */
+"import.words" = "كلمات";
+"import.version" = "الإصدار";
+"import.iterations" = "التكرارات";
+"import.keyBytes" = "المفتاح";
+"import.confirmTitle" = "إعدادات من الملف";
+"import.confirmMessage" = "تطبيق إعدادات الملف لفك التشفير؟";
+"import.fileLoaded" = "تم تحميل الملف";
+"import.changeFile" = "تغيير";
+
+/* Word count */
+"wordCount.resetTitle" = "إعادة تعيين الكلمات المدخلة؟";
+"wordCount.resetMessage" = "تغيير الطول سيمسح العبارة الحالية.";
+"wordCount.resetConfirm" = "إعادة تعيين";
+"wordCount.label" = "%d كلمات";
+"wordCount.label21" = "21 كلمة";
+"wordCount.label24" = "24 كلمة";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "الحافظة فارغة.";
+"toast.wrongWordCount" = "الحافظة تحتوي %d كلمات — يلزم 12 أو 15 أو 18 أو 21 أو 24.";
+"toast.wordNotInDictionary" = "الكلمة %d «%@» غير موجودة في القاموس.";
+
+/* Exit */
+"exit.clearTitle" = "الخروج ومسح البيانات؟";
+"exit.clearConfirm" = "خروج ومسح";
+"exit.clearMessage" = "ستُزال العبارة وكلمة المرور المدخلتان من الذاكرة.";
+
+/* Onboarding */
+"onboarding.title" = "كيفية الاستخدام";
+"onboarding.1" = "احفظ كلمة المرور منفصلة عن الرموز.";
+"onboarding.2" = "يجب أن تتطابق إعدادات الملف عند التشفير وفك التشفير.";
+"onboarding.3" = "التطبيق يعمل بالكامل دون اتصال.";
+
+/* Language */
+"settings.sectionLanguage" = "اللغة";
+"settings.language" = "لغة التطبيق";
+"settings.languageSystem" = "النظام";
+"settings.tabGeneral" = "عام";
+"settings.tabEncryption" = "التشفير";
+
+"settings.sectionHelp" = "مساعدة";
+"settings.showOnboarding" = "إظهار المقدمة مرة أخرى";
+
+/* Settings */
+"settings.title" = "الإعدادات";
+"settings.sectionFormat" = "التنسيق";
+"settings.sectionDefaultPhrase" = "العبارة الافتراضية";
+"settings.sectionPassword" = "حماية كلمة المرور";
+"settings.version" = "الإصدار";
+"settings.defaultPhraseLength" = "طول عبارة الاسترداد الافتراضي";
+"settings.compat" = "يجب أن تتطابق الإعدادات عند التشفير وفك التشفير. وإلا لن تُفتح الرموز.";
+"settings.iterations" = "التكرارات";
+"settings.keySize" = "حجم المفتاح";
+"settings.iterationsHint" = "تكرارات أكثر — فتح أبطأ، أصعب في التخمين.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "الموضع %d، الكلمة مخفية";
+"a11y.progress" = "%d من %d";
+"a11y.stepNamed" = "%@، %d من %d";
+"a11y.stepGeneric" = "الخطوة %d من %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "أدخل كلمة مرور.";
+"error.hasher.passwordTooShort" = "كلمة المرور قصيرة — 8 أحرف على الأقل.";
+"error.hasher.keyDerivationFailed" = "تعذّر معالجة كلمة المرور.";
+"error.hasher.invalidWordCount" = "عدد غير صالح: %d. يلزم 12 أو 15 أو 18 أو 21 أو 24.";
+"error.hasher.unknownWord" = "الكلمة «%@» غير موجودة في القاموس.";
+"error.hasher.invalidTokenFormat" = "تنسيق رمز غير صالح «%@».";
+"error.hasher.tokenNotFound" = "الرمز غير موجود. تحقق من كلمة المرور والطول والإملاء.";
+"error.hasher.ambiguousToken" = "تطابق غامض. تحقق من الإعدادات وكلمة المرور.";
+"error.hasher.slotConflict" = "تعارض: الموضع %d مشغول بالفعل.";
+"error.hasher.passwordMismatch" = "كلمة المرور والتأكيد غير متطابقين.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "تعذّر الحصول على عشوائية آمنة تشفيريًا.";
+"error.bip39.invalidEntropyLength" = "طول entropy غير صالح لـ BIP-39.";
+"error.bip39.wordlistCorrupted" = "قائمة BIP-39 تالفة (متوقع 2048 كلمة).";
+"error.bip39.invalidWord" = "الكلمة «%@» غير موجودة في قاموس BIP-39.";
+"error.bip39.invalidChecksum" = "مجموع تحقق BIP-39 غير صالح.";
+
+/* Import errors */
+"error.import.unreadable" = "تعذّر قراءة الملف.";
+"error.import.empty" = "الملف فارغ.";
+"error.import.noTokens" = "لم تُعثر على رموز في الملف.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "أنشأه Markus Lind";
+"menu.about" = "حول %@";
+"menu.navigate" = "تنقل";
+"about.tagline" = "إخفاء offline لعبارات BIP-39.";
+"about.offline" = "يعمل بالكامل offline · لا يُرسل شيء عبر الشبكة";

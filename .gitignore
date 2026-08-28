@@ -1,0 +1,52 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.swiftpm/configuration/registries.json
+*.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+
+# Test results
+*.xcresult
+*.profraw
+*.profdata
+
+# Editor / local tooling
+.vscode/
+buildServer.json
+.cursor/
+
+# MkDocs
+site/
+.venv-docs/
+
+# Secrets
+*.env
+.env.*
+
+# Sweetpad
+.sweetpad/
+
+# Build server
+buildServer.json

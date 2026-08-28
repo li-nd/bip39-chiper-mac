@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Perlindungan frase seed";
+"home.subtitle" = "Sembunyikan frase dengan kata sandi atau pulihkan dari kode tersimpan.";
+"home.encrypt" = "Enkripsi";
+"home.decrypt" = "Dekripsi";
+"home.encryptSubtitle" = "Buat atau masukkan frase dan dapatkan kode";
+"home.decryptSubtitle" = "Masukkan kode dan kata sandi untuk memulihkan frase";
+"home.settingsHelp" = "Pengaturan";
+"home.settingsSummary" = "Saat ini: %d kata · %@ iter · kunci %d";
+
+/* Common */
+"common.next" = "Lanjut";
+"common.show" = "Tampilkan";
+"common.hide" = "Sembunyikan";
+"common.paste" = "Tempel";
+"common.clear" = "Hapus";
+"common.copy" = "Salin";
+"common.copied" = "Disalin";
+"common.toFile" = "Ke file";
+"common.home" = "Beranda";
+"common.again" = "Ulangi";
+"common.apply" = "Terapkan";
+"common.cancel" = "Batal";
+"common.understood" = "Mengerti";
+"common.add" = "Tambah";
+"common.password" = "Kata sandi";
+"common.close" = "Tutup";
+"common.generate" = "Buat";
+"common.encrypt" = "Enkripsi";
+"common.validate" = "Validasi";
+"common.progress" = "Progres";
+"common.poster" = "Gambar";
+"common.busyPassword" = "Memproses kata sandi…";
+"common.busyCheckingToken" = "Memeriksa kode…";
+"common.toastCopiedClipboard" = "Disalin. Papan klip dibersihkan dalam 45 dtk.";
+
+/* Steps */
+"step.source" = "Sumber";
+"step.phrase" = "Frase";
+"step.password" = "Kata sandi";
+"step.codes" = "Kode";
+"step.done" = "Selesai";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Frase baru";
+"encrypt.titleEnter" = "Frase yang ada";
+"encrypt.subtitleSource" = "Mulai dari mana?";
+"encrypt.subtitleCreate" = "Buat frase seed baru.";
+"encrypt.subtitleEnter" = "Masukkan atau tempel frase seed yang ada.";
+"encrypt.subtitlePassword" = "Pilih kata sandi kuat dan konfirmasi.";
+"encrypt.subtitleResult" = "Simpan kode. Urutan tidak penting.";
+"encrypt.sourceNewTitle" = "Frase seed baru";
+"encrypt.sourceNewSubtitle" = "Buat dan enkripsi";
+"encrypt.sourceExistingTitle" = "Frase seed yang ada";
+"encrypt.sourceExistingSubtitle" = "Ketik atau tempel manual";
+"encrypt.shuffleExport" = "Acak saat salin / simpan";
+"encrypt.shuffleExportHint" = "Di layar urutan tetap; saat ekspor diacak.";
+"encrypt.toastDone" = "Selesai. Simpan kode di tempat aman.";
+"encrypt.toastPhrasePasted" = "Frase ditempel dari papan klip.";
+
+/* Phrase */
+"phrase.length" = "Panjang frase";
+"phrase.notCreated" = "Frase belum dibuat";
+"phrase.notCreatedHint" = "Pilih panjang dan ketuk Buat.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Pilih panjang. Default dari pengaturan.";
+"decrypt.subtitlePassword" = "Masukkan kata sandi yang dipakai saat enkripsi.";
+"decrypt.subtitleCodes" = "Masukkan kode atau muat file. Urutan tidak penting.";
+"decrypt.subtitleResult" = "Frase dipulihkan. Simpan dengan aman.";
+"decrypt.passwordHint" = "Harus cocok dengan pengaturan saat enkripsi.";
+"decrypt.enterCode" = "Masukkan kode";
+"decrypt.pickCodesFile" = "Pilih file kode (.txt)";
+"decrypt.wordLength" = "Panjang: %d (dari pengaturan)";
+"decrypt.toastPhraseRestored" = "Frase dipulihkan.";
+"decrypt.toastWordFound" = "Kata %d: posisi ditemukan (%d/%d).";
+"decrypt.toastAdded" = "Ditambahkan. %d/%d.";
+"decrypt.toastAddedBatch" = "%d ditambahkan. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Kata %d dari %d";
+"seed.allWordsEntered" = "Semua kata dimasukkan";
+"seed.placeholder" = "Ketik kata atau tempel frase…";
+"seed.hint" = "Saran dari huruf ke-4. Tempel seluruh frase (⌘V).";
+"seed.phraseComplete" = "Frase lengkap.";
+"seed.helpReplaceClipboard" = "Ganti frase dari papan klip";
+"seed.helpPastePhrase" = "Tempel frase seed (⇧⌘V)";
+"seed.helpClearAll" = "Hapus semua kata";
+"seed.toastClipboardEmpty" = "Papan klip kosong — salin frase seed dan coba lagi.";
+"seed.toastFillAll" = "Isi semua %d kata.";
+"seed.toastValidated" = "Frase divalidasi.";
+
+/* Password */
+"password.minPlaceholder" = "Minimal 8 karakter";
+"password.confirmPlaceholder" = "Ulangi kata sandi";
+"password.mismatchInline" = "Kata sandi tidak cocok";
+"password.strength.weak" = "Lemah";
+"password.strength.fair" = "Sedang";
+"password.strength.strong" = "Kuat";
+
+/* Drop zone */
+"dropzone.title" = "Muat file kode";
+"dropzone.subtitle" = "Letakkan .txt di sini atau klik untuk memilih";
+
+/* Word search */
+"wordSearch.noMatch" = "Tidak ada kata BIP-39 dengan awalan ini";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Pratinjau gambar";
+"poster.savePNG" = "Simpan PNG";
+
+/* Import */
+"import.words" = "Kata";
+"import.version" = "Versi";
+"import.iterations" = "Iterasi";
+"import.keyBytes" = "Kunci";
+"import.confirmTitle" = "Pengaturan dari file";
+"import.confirmMessage" = "Terapkan pengaturan dari file untuk dekripsi?";
+"import.fileLoaded" = "File dimuat";
+"import.changeFile" = "Ubah";
+
+/* Word count */
+"wordCount.resetTitle" = "Reset kata yang dimasukkan?";
+"wordCount.resetMessage" = "Mengubah panjang akan menghapus frase saat ini.";
+"wordCount.resetConfirm" = "Reset";
+"wordCount.label" = "%d kata";
+"wordCount.label21" = "21 kata";
+"wordCount.label24" = "24 kata";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Papan klip kosong.";
+"toast.wrongWordCount" = "Papan klip berisi %d kata — perlu 12, 15, 18, 21, atau 24.";
+"toast.wordNotInDictionary" = "Kata %d «%@» tidak ditemukan di kamus.";
+
+/* Exit */
+"exit.clearTitle" = "Keluar dan hapus data?";
+"exit.clearConfirm" = "Keluar dan hapus";
+"exit.clearMessage" = "Frase dan kata sandi yang dimasukkan akan dihapus dari memori.";
+
+/* Onboarding */
+"onboarding.title" = "Cara pakai";
+"onboarding.1" = "Simpan kata sandi terpisah dari kode.";
+"onboarding.2" = "Pengaturan file harus cocok saat enkripsi dan dekripsi.";
+"onboarding.3" = "Aplikasi bekerja sepenuhnya offline.";
+
+/* Language */
+"settings.sectionLanguage" = "Bahasa";
+"settings.language" = "Bahasa aplikasi";
+"settings.languageSystem" = "Sistem";
+"settings.tabGeneral" = "Umum";
+"settings.tabEncryption" = "Enkripsi";
+
+"settings.sectionHelp" = "Bantuan";
+"settings.showOnboarding" = "Tampilkan pengenalan lagi";
+
+/* Settings */
+"settings.title" = "Pengaturan";
+"settings.sectionFormat" = "Format";
+"settings.sectionDefaultPhrase" = "Frase default";
+"settings.sectionPassword" = "Perlindungan kata sandi";
+"settings.version" = "Versi";
+"settings.defaultPhraseLength" = "Panjang frase seed default";
+"settings.compat" = "Pengaturan harus cocok saat enkripsi dan dekripsi. Jika tidak, kode tidak akan terbuka.";
+"settings.iterations" = "Iterasi";
+"settings.keySize" = "Ukuran kunci";
+"settings.iterationsHint" = "Lebih banyak iterasi — buka kunci lebih lambat, lebih sulit di-brute force.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Posisi %d, kata disembunyikan";
+"a11y.progress" = "%d dari %d";
+"a11y.stepNamed" = "%@, %d dari %d";
+"a11y.stepGeneric" = "Langkah %d dari %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Masukkan kata sandi.";
+"error.hasher.passwordTooShort" = "Kata sandi terlalu pendek — minimal 8 karakter.";
+"error.hasher.keyDerivationFailed" = "Tidak dapat memproses kata sandi.";
+"error.hasher.invalidWordCount" = "Jumlah tidak valid: %d. Perlu 12, 15, 18, 21, atau 24.";
+"error.hasher.unknownWord" = "Kata «%@» tidak ada di kamus.";
+"error.hasher.invalidTokenFormat" = "Format kode tidak valid «%@».";
+"error.hasher.tokenNotFound" = "Kode tidak ditemukan. Periksa kata sandi, panjang, dan ejaan.";
+"error.hasher.ambiguousToken" = "Kecocokan ambigu. Periksa pengaturan dan kata sandi.";
+"error.hasher.slotConflict" = "Konflik: posisi %d sudah terisi.";
+"error.hasher.passwordMismatch" = "Kata sandi dan konfirmasi tidak cocok.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Tidak dapat mendapatkan keacakan kriptografis aman.";
+"error.bip39.invalidEntropyLength" = "Panjang entropi tidak valid untuk BIP-39.";
+"error.bip39.wordlistCorrupted" = "Daftar BIP-39 rusak (diharapkan 2048 kata).";
+"error.bip39.invalidWord" = "Kata «%@» tidak ada di kamus BIP-39.";
+"error.bip39.invalidChecksum" = "Checksum BIP-39 tidak valid.";
+
+/* Import errors */
+"error.import.unreadable" = "Tidak dapat membaca file.";
+"error.import.empty" = "File kosong.";
+"error.import.noTokens" = "Tidak ada kode ditemukan di file.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Dibuat oleh Markus Lind";
+"menu.about" = "Tentang %@";
+"menu.navigate" = "Navigasi";
+"about.tagline" = "Obfuskasi offline untuk frase seed BIP-39.";
+"about.offline" = "Bekerja sepenuhnya offline · tidak ada yang dikirim lewat jaringan";

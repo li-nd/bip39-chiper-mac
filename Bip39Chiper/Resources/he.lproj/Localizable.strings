@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "הגנה על ביטוי seed";
+"home.subtitle" = "הסתר את הביטוי בסיסמה או שחזר אותו מהקודים השמורים.";
+"home.encrypt" = "הצפנה";
+"home.decrypt" = "פענוח";
+"home.encryptSubtitle" = "צור או הזן ביטוי וקבל קודים";
+"home.decryptSubtitle" = "הזן קודים וסיסמה לשחזור הביטוי";
+"home.settingsHelp" = "הגדרות";
+"home.settingsSummary" = "נוכחי: %d מילים · %@ איטר · מפתח %d";
+
+/* Common */
+"common.next" = "הבא";
+"common.show" = "הצג";
+"common.hide" = "הסתר";
+"common.paste" = "הדבק";
+"common.clear" = "נקה";
+"common.copy" = "העתק";
+"common.copied" = "הועתק";
+"common.toFile" = "לקובץ";
+"common.home" = "בית";
+"common.again" = "שוב";
+"common.apply" = "החל";
+"common.cancel" = "ביטול";
+"common.understood" = "הבנתי";
+"common.add" = "הוסף";
+"common.password" = "סיסמה";
+"common.close" = "סגור";
+"common.generate" = "צור";
+"common.encrypt" = "הצפן";
+"common.validate" = "אמת";
+"common.progress" = "התקדמות";
+"common.poster" = "תמונה";
+"common.busyPassword" = "מעבד סיסמה…";
+"common.busyCheckingToken" = "בודק קוד…";
+"common.toastCopiedClipboard" = "הועתק. לוח ההעתקה יימחק בעוד 45 שנ׳.";
+
+/* Steps */
+"step.source" = "מקור";
+"step.phrase" = "ביטוי";
+"step.password" = "סיסמה";
+"step.codes" = "קודים";
+"step.done" = "סיום";
+
+/* Encrypt */
+"encrypt.titleCreate" = "ביטוי חדש";
+"encrypt.titleEnter" = "ביטוי קיים";
+"encrypt.subtitleSource" = "מאיפה מתחילים?";
+"encrypt.subtitleCreate" = "צור ביטוי seed חדש.";
+"encrypt.subtitleEnter" = "הזן או הדבק ביטוי seed קיים.";
+"encrypt.subtitlePassword" = "בחר סיסמה חזקה ואשר אותה.";
+"encrypt.subtitleResult" = "שמור את הקודים. הסדר לא חשוב.";
+"encrypt.sourceNewTitle" = "ביטוי seed חדש";
+"encrypt.sourceNewSubtitle" = "יצירה והצפנה";
+"encrypt.sourceExistingTitle" = "ביטוי seed קיים";
+"encrypt.sourceExistingSubtitle" = "הזנה או הדבקה ידנית";
+"encrypt.shuffleExport" = "ערבוב בהעתקה / שמירה";
+"encrypt.shuffleExportHint" = "על המסך הסדר נשאר; בייצוא מתערבב.";
+"encrypt.toastDone" = "סיום. שמור את הקודים במקום בטוח.";
+"encrypt.toastPhrasePasted" = "הביטוי הודבק מלוח ההעתקה.";
+
+/* Phrase */
+"phrase.length" = "אורך הביטוי";
+"phrase.notCreated" = "הביטוי עדיין לא נוצר";
+"phrase.notCreatedHint" = "בחר אורך ולחץ צור.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "בחר אורך ביטוי. ברירת מחדל מההגדרות.";
+"decrypt.subtitlePassword" = "הזן את הסיסמה ששימשה בהצפנה.";
+"decrypt.subtitleCodes" = "הזן קודים או טען קובץ. הסדר לא חשוב.";
+"decrypt.subtitleResult" = "הביטוי שוחזר. שמור אותו במקום בטוח.";
+"decrypt.passwordHint" = "חייב להתאים להגדרות שהיו בהצפנה.";
+"decrypt.enterCode" = "הזן קוד";
+"decrypt.pickCodesFile" = "בחר קובץ קודים (.txt)";
+"decrypt.wordLength" = "אורך: %d (מההגדרות)";
+"decrypt.toastPhraseRestored" = "הביטוי שוחזר.";
+"decrypt.toastWordFound" = "מילה %d: נמצאה מיקום (%d/%d).";
+"decrypt.toastAdded" = "נוסף. %d/%d.";
+"decrypt.toastAddedBatch" = "נוספו %d. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "מילה %d מתוך %d";
+"seed.allWordsEntered" = "כל המילים הוזנו";
+"seed.placeholder" = "הקלד מילה או הדבק ביטוי…";
+"seed.hint" = "הצעות מהאות הרביעית. הדבק ביטוי מלא (⌘V).";
+"seed.phraseComplete" = "הביטוי שלם.";
+"seed.helpReplaceClipboard" = "החלף ביטוי מלוח ההעתקה";
+"seed.helpPastePhrase" = "הדבק ביטוי seed (⇧⌘V)";
+"seed.helpClearAll" = "נקה את כל המילים";
+"seed.toastClipboardEmpty" = "לוח ההעתקה ריק — העתק ביטוי seed ונסה שוב.";
+"seed.toastFillAll" = "מלא את כל %d המילים.";
+"seed.toastValidated" = "הביטוי אומת.";
+
+/* Password */
+"password.minPlaceholder" = "לפחות 8 תווים";
+"password.confirmPlaceholder" = "חזור על הסיסמה";
+"password.mismatchInline" = "הסיסמאות אינן תואמות";
+"password.strength.weak" = "חלשה";
+"password.strength.fair" = "בינונית";
+"password.strength.strong" = "חזקה";
+
+/* Drop zone */
+"dropzone.title" = "טען קובץ קודים";
+"dropzone.subtitle" = "גרור .txt לכאן או לחץ לבחירה";
+
+/* Word search */
+"wordSearch.noMatch" = "אין מילת BIP-39 עם הקידומת הזו";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "תצוגה מקדימה";
+"poster.savePNG" = "שמור PNG";
+
+/* Import */
+"import.words" = "מילים";
+"import.version" = "גרסה";
+"import.iterations" = "איטרציות";
+"import.keyBytes" = "מפתח";
+"import.confirmTitle" = "הגדרות מהקובץ";
+"import.confirmMessage" = "להחיל הגדרות מהקובץ לפענוח?";
+"import.fileLoaded" = "הקובץ נטען";
+"import.changeFile" = "שנה";
+
+/* Word count */
+"wordCount.resetTitle" = "לאפס מילים שהוזנו?";
+"wordCount.resetMessage" = "שינוי האורך ימחק את הביטוי הנוכחי.";
+"wordCount.resetConfirm" = "אפס";
+"wordCount.label" = "%d מילים";
+"wordCount.label21" = "21 מילים";
+"wordCount.label24" = "24 מילים";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "לוח ההעתקה ריק.";
+"toast.wrongWordCount" = "בלוח ההעתקה %d מילים — נדרשות 12, 15, 18, 21 או 24.";
+"toast.wordNotInDictionary" = "מילה %d «%@» לא נמצאה במילון.";
+
+/* Exit */
+"exit.clearTitle" = "לצאת ולמחוק נתונים?";
+"exit.clearConfirm" = "צא ומחק";
+"exit.clearMessage" = "הביטוי והסיסמה שהוזנו יוסרו מהזיכרון.";
+
+/* Onboarding */
+"onboarding.title" = "איך להשתמש";
+"onboarding.1" = "שמור את הסיסמה בנפרד מהקודים.";
+"onboarding.2" = "הגדרות הקובץ חייבות להתאים בהצפנה ובפענוח.";
+"onboarding.3" = "האפליקציה עובדת לגמרי offline.";
+
+/* Language */
+"settings.sectionLanguage" = "שפה";
+"settings.language" = "שפת האפליקציה";
+"settings.languageSystem" = "מערכת";
+"settings.tabGeneral" = "כללי";
+"settings.tabEncryption" = "הצפנה";
+
+"settings.sectionHelp" = "עזרה";
+"settings.showOnboarding" = "הצג שוב את ההקדמה";
+
+/* Settings */
+"settings.title" = "הגדרות";
+"settings.sectionFormat" = "פורמט";
+"settings.sectionDefaultPhrase" = "ביטוי ברירת מחדל";
+"settings.sectionPassword" = "הגנת סיסמה";
+"settings.version" = "גרסה";
+"settings.defaultPhraseLength" = "אורך ברירת מחדל לביטוי seed";
+"settings.compat" = "ההגדרות חייבות להתאים בהצפנה ובפענוח. אחרת הקודים לא ייפתחו.";
+"settings.iterations" = "איטרציות";
+"settings.keySize" = "גודל מפתח";
+"settings.iterationsHint" = "יותר איטרציות — פתיחה איטית יותר, קשה יותר לפריצה.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "מיקום %d, מילה מוסתרת";
+"a11y.progress" = "%d מתוך %d";
+"a11y.stepNamed" = "%@, %d מתוך %d";
+"a11y.stepGeneric" = "שלב %d מתוך %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "הזן סיסמה.";
+"error.hasher.passwordTooShort" = "סיסמה קצרה מדי — מינימום 8 תווים.";
+"error.hasher.keyDerivationFailed" = "לא ניתן לעבד את הסיסמה.";
+"error.hasher.invalidWordCount" = "מספר לא תקין: %d. נדרשות 12, 15, 18, 21 או 24.";
+"error.hasher.unknownWord" = "המילה «%@» אינה במילון.";
+"error.hasher.invalidTokenFormat" = "פורמט קוד לא תקין «%@».";
+"error.hasher.tokenNotFound" = "הקוד לא נמצא. בדוק סיסמה, אורך ואיות.";
+"error.hasher.ambiguousToken" = "התאמה מעורפלת. בדוק הגדרות וסיסמה.";
+"error.hasher.slotConflict" = "התנגשות: מיקום %d כבר תפוס.";
+"error.hasher.passwordMismatch" = "הסיסמה והאישור אינם תואמים.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "לא ניתן לקבל אקראיות קריפטוגרפית בטוחה.";
+"error.bip39.invalidEntropyLength" = "אורך אנטרופיה לא תקין ל-BIP-39.";
+"error.bip39.wordlistCorrupted" = "רשימת BIP-39 פגומה (צפויות 2048 מילים).";
+"error.bip39.invalidWord" = "המילה «%@» אינה במילון BIP-39.";
+"error.bip39.invalidChecksum" = "סכום ביקורת BIP-39 לא תקין.";
+
+/* Import errors */
+"error.import.unreadable" = "לא ניתן לקרוא את הקובץ.";
+"error.import.empty" = "הקובץ ריק.";
+"error.import.noTokens" = "לא נמצאו קודים בקובץ.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "נוצר על ידי Markus Lind";
+"menu.about" = "אודות %@";
+"menu.navigate" = "ניווט";
+"about.tagline" = "הסתרה offline לביטויי seed של BIP-39.";
+"about.offline" = "עובד לגמרי offline · שום דבר לא נשלח ברשת";

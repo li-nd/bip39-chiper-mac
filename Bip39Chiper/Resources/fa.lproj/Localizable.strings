@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "محافظت از عبارت seed";
+"home.subtitle" = "عبارت را با رمز عبور پنهان کنید یا از کدهای ذخیره‌شده بازیابی کنید.";
+"home.encrypt" = "رمزگذاری";
+"home.decrypt" = "رمزگشایی";
+"home.encryptSubtitle" = "عبارت را بسازید یا وارد کنید و کدها را بگیرید";
+"home.decryptSubtitle" = "کدها و رمز عبور را برای بازیابی عبارت وارد کنید";
+"home.settingsHelp" = "تنظیمات";
+"home.settingsSummary" = "فعلی: %d واژه · %@ تکرار · کلید %d";
+
+/* Common */
+"common.next" = "بعدی";
+"common.show" = "نمایش";
+"common.hide" = "پنهان";
+"common.paste" = "چسباندن";
+"common.clear" = "پاک کردن";
+"common.copy" = "کپی";
+"common.copied" = "کپی شد";
+"common.toFile" = "در فایل";
+"common.home" = "خانه";
+"common.again" = "دوباره";
+"common.apply" = "اعمال";
+"common.cancel" = "لغو";
+"common.understood" = "متوجه شدم";
+"common.add" = "افزودن";
+"common.password" = "رمز عبور";
+"common.close" = "بستن";
+"common.generate" = "ایجاد";
+"common.encrypt" = "رمزگذاری";
+"common.validate" = "اعتبارسنجی";
+"common.progress" = "پیشرفت";
+"common.poster" = "تصویر";
+"common.busyPassword" = "در حال پردازش رمز…";
+"common.busyCheckingToken" = "در حال بررسی کد…";
+"common.toastCopiedClipboard" = "کپی شد. کلیپ‌بورد تا ۴۵ ثانیه پاک می‌شود.";
+
+/* Steps */
+"step.source" = "منبع";
+"step.phrase" = "عبارت";
+"step.password" = "رمز عبور";
+"step.codes" = "کدها";
+"step.done" = "انجام شد";
+
+/* Encrypt */
+"encrypt.titleCreate" = "عبارت جدید";
+"encrypt.titleEnter" = "عبارت موجود";
+"encrypt.subtitleSource" = "از کجا شروع کنیم؟";
+"encrypt.subtitleCreate" = "یک عبارت seed جدید بسازید.";
+"encrypt.subtitleEnter" = "عبارت seed موجود را وارد یا بچسبانید.";
+"encrypt.subtitlePassword" = "رمز قوی انتخاب کنید و تأیید کنید.";
+"encrypt.subtitleResult" = "کدها را ذخیره کنید. ترتیب مهم نیست.";
+"encrypt.sourceNewTitle" = "عبارت seed جدید";
+"encrypt.sourceNewSubtitle" = "ایجاد و رمزگذاری";
+"encrypt.sourceExistingTitle" = "عبارت seed موجود";
+"encrypt.sourceExistingSubtitle" = "دستی وارد یا بچسبانید";
+"encrypt.shuffleExport" = "درهم‌آمیزی هنگام کپی / ذخیره";
+"encrypt.shuffleExportHint" = "روی صفحه ترتیب ثابت است؛ در خروجی درهم می‌شود.";
+"encrypt.toastDone" = "انجام شد. کدها را در جای امن نگه دارید.";
+"encrypt.toastPhrasePasted" = "عبارت از کلیپ‌بورد چسبانده شد.";
+
+/* Phrase */
+"phrase.length" = "طول عبارت";
+"phrase.notCreated" = "عبارت هنوز ساخته نشده";
+"phrase.notCreatedHint" = "طول را انتخاب کنید و ایجاد را بزنید.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "طول عبارت را انتخاب کنید. پیش‌فرض از تنظیمات.";
+"decrypt.subtitlePassword" = "رمزی را که هنگام رمزگذاری استفاده شد وارد کنید.";
+"decrypt.subtitleCodes" = "کدها را وارد کنید یا فایل بارگذاری کنید. ترتیب مهم نیست.";
+"decrypt.subtitleResult" = "عبارت بازیابی شد. آن را امن نگه دارید.";
+"decrypt.passwordHint" = "باید با تنظیمات زمان رمزگذاری یکسان باشد.";
+"decrypt.enterCode" = "کد را وارد کنید";
+"decrypt.pickCodesFile" = "انتخاب فایل کدها (.txt)";
+"decrypt.wordLength" = "طول: %d (از تنظیمات)";
+"decrypt.toastPhraseRestored" = "عبارت بازیابی شد.";
+"decrypt.toastWordFound" = "واژه %d: موقعیت یافت (%d/%d).";
+"decrypt.toastAdded" = "افزوده شد. %d/%d.";
+"decrypt.toastAddedBatch" = "%d افزوده شد. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "واژه %d از %d";
+"seed.allWordsEntered" = "همه واژه‌ها وارد شد";
+"seed.placeholder" = "واژه بنویسید یا عبارت بچسبانید…";
+"seed.hint" = "پیشنهاد از حرف چهارم. عبارت کامل را بچسبانید (⌘V).";
+"seed.phraseComplete" = "عبارت کامل است.";
+"seed.helpReplaceClipboard" = "جایگزینی عبارت از کلیپ‌بورد";
+"seed.helpPastePhrase" = "چسباندن عبارت seed (⇧⌘V)";
+"seed.helpClearAll" = "پاک کردن همه واژه‌ها";
+"seed.toastClipboardEmpty" = "کلیپ‌بورد خالی است — عبارت seed را کپی کنید و دوباره امتحان کنید.";
+"seed.toastFillAll" = "هر %d واژه را پر کنید.";
+"seed.toastValidated" = "عبارت تأیید شد.";
+
+/* Password */
+"password.minPlaceholder" = "حداقل ۸ نویسه";
+"password.confirmPlaceholder" = "تکرار رمز عبور";
+"password.mismatchInline" = "رمزها یکسان نیستند";
+"password.strength.weak" = "ضعیف";
+"password.strength.fair" = "متوسط";
+"password.strength.strong" = "قوی";
+
+/* Drop zone */
+"dropzone.title" = "بارگذاری فایل کدها";
+"dropzone.subtitle" = "فایل .txt را اینجا رها کنید یا برای انتخاب کلیک کنید";
+
+/* Word search */
+"wordSearch.noMatch" = "واژه BIP-39 با این پیشوند نیست";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "پیش‌نمایش تصویر";
+"poster.savePNG" = "ذخیره PNG";
+
+/* Import */
+"import.words" = "واژه‌ها";
+"import.version" = "نسخه";
+"import.iterations" = "تکرارها";
+"import.keyBytes" = "کلید";
+"import.confirmTitle" = "تنظیمات از فایل";
+"import.confirmMessage" = "تنظیمات فایل برای رمزگشایی اعمال شود؟";
+"import.fileLoaded" = "فایل بارگذاری شد";
+"import.changeFile" = "تغییر";
+
+/* Word count */
+"wordCount.resetTitle" = "واژه‌های واردشده بازنشانی شود؟";
+"wordCount.resetMessage" = "تغییر طول عبارت فعلی را پاک می‌کند.";
+"wordCount.resetConfirm" = "بازنشانی";
+"wordCount.label" = "%d واژه";
+"wordCount.label21" = "۲۱ واژه";
+"wordCount.label24" = "۲۴ واژه";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "کلیپ‌بورد خالی است.";
+"toast.wrongWordCount" = "کلیپ‌بورد %d واژه دارد — باید ۱۲، ۱۵، ۱۸، ۲۱ یا ۲۴ باشد.";
+"toast.wordNotInDictionary" = "واژه %d «%@» در واژه‌نامه نیست.";
+
+/* Exit */
+"exit.clearTitle" = "خروج و پاک کردن داده‌ها؟";
+"exit.clearConfirm" = "خروج و پاک کردن";
+"exit.clearMessage" = "عبارت و رمز واردشده از حافظه حذف می‌شوند.";
+
+/* Onboarding */
+"onboarding.title" = "نحوه استفاده";
+"onboarding.1" = "رمز عبور را جدا از کدها نگه دارید.";
+"onboarding.2" = "تنظیمات فایل باید در رمزگذاری و رمزگشایی یکسان باشد.";
+"onboarding.3" = "برنامه کاملاً آفلاین کار می‌کند.";
+
+/* Language */
+"settings.sectionLanguage" = "زبان";
+"settings.language" = "زبان برنامه";
+"settings.languageSystem" = "سیستم";
+"settings.tabGeneral" = "عمومی";
+"settings.tabEncryption" = "رمزگذاری";
+
+"settings.sectionHelp" = "راهنما";
+"settings.showOnboarding" = "نمایش دوباره راهنما";
+
+/* Settings */
+"settings.title" = "تنظیمات";
+"settings.sectionFormat" = "قالب";
+"settings.sectionDefaultPhrase" = "عبارت پیش‌فرض";
+"settings.sectionPassword" = "محافظت با رمز";
+"settings.version" = "نسخه";
+"settings.defaultPhraseLength" = "طول پیش‌فرض عبارت seed";
+"settings.compat" = "تنظیمات باید در رمزگذاری و رمزگشایی یکسان باشد. وگرنه کدها باز نمی‌شوند.";
+"settings.iterations" = "تکرارها";
+"settings.keySize" = "اندازه کلید";
+"settings.iterationsHint" = "تکرار بیشتر — باز کردن کندتر، سخت‌تر برای brute-force.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "موقعیت %d، واژه پنهان";
+"a11y.progress" = "%d از %d";
+"a11y.stepNamed" = "%@، %d از %d";
+"a11y.stepGeneric" = "گام %d از %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "رمز عبور را وارد کنید.";
+"error.hasher.passwordTooShort" = "رمز کوتاه است — حداقل ۸ نویسه.";
+"error.hasher.keyDerivationFailed" = "رمز پردازش نشد.";
+"error.hasher.invalidWordCount" = "تعداد نامعتبر: %d. باید ۱۲، ۱۵، ۱۸، ۲۱ یا ۲۴ باشد.";
+"error.hasher.unknownWord" = "واژه «%@» در واژه‌نامه نیست.";
+"error.hasher.invalidTokenFormat" = "قالب کد نامعتبر «%@».";
+"error.hasher.tokenNotFound" = "کد یافت نشد. رمز، طول و املا را بررسی کنید.";
+"error.hasher.ambiguousToken" = "تطابق مبهم. تنظیمات و رمز را بررسی کنید.";
+"error.hasher.slotConflict" = "تعارض: موقعیت %d قبلاً پر است.";
+"error.hasher.passwordMismatch" = "رمز و تأیید یکسان نیستند.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "نمی‌توان تصادف رمزنگاری امن گرفت.";
+"error.bip39.invalidEntropyLength" = "طول آنتروپی برای BIP-39 نامعتبر است.";
+"error.bip39.wordlistCorrupted" = "فهرست BIP-39 خراب است (۲۰۴۸ واژه انتظار می‌رود).";
+"error.bip39.invalidWord" = "واژه «%@» در واژه‌نامه BIP-39 نیست.";
+"error.bip39.invalidChecksum" = "checksum BIP-39 نامعتبر است.";
+
+/* Import errors */
+"error.import.unreadable" = "فایل خوانده نشد.";
+"error.import.empty" = "فایل خالی است.";
+"error.import.noTokens" = "کدی در فایل یافت نشد.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "سازنده: Markus Lind";
+"menu.about" = "درباره %@";
+"menu.navigate" = "ناوبری";
+"about.tagline" = "مبهم‌سازی آفلاین برای عبارت‌های seed BIP-39.";
+"about.offline" = "کاملاً آفلاین · چیزی از شبکه ارسال نمی‌شود";

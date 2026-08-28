@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Ochrana seed fráze";
+"home.subtitle" = "Skryjte frázi heslem nebo ji obnovte ze uložených kódů.";
+"home.encrypt" = "Šifrovat";
+"home.decrypt" = "Dešifrovat";
+"home.encryptSubtitle" = "Vytvořte nebo zadejte frázi a získejte kódy";
+"home.decryptSubtitle" = "Zadejte kódy a heslo pro obnovení fráze";
+"home.settingsHelp" = "Nastavení";
+"home.settingsSummary" = "Aktuálně: %d slov · %@ iter · klíč %d";
+
+/* Common */
+"common.next" = "Další";
+"common.show" = "Zobrazit";
+"common.hide" = "Skrýt";
+"common.paste" = "Vložit";
+"common.clear" = "Vymazat";
+"common.copy" = "Kopírovat";
+"common.copied" = "Zkopírováno";
+"common.toFile" = "Do souboru";
+"common.home" = "Domů";
+"common.again" = "Znovu";
+"common.apply" = "Použít";
+"common.cancel" = "Zrušit";
+"common.understood" = "Rozumím";
+"common.add" = "Přidat";
+"common.password" = "Heslo";
+"common.close" = "Zavřít";
+"common.generate" = "Generovat";
+"common.encrypt" = "Šifrovat";
+"common.validate" = "Ověřit";
+"common.progress" = "Průběh";
+"common.poster" = "Obrázek";
+"common.busyPassword" = "Zpracování hesla…";
+"common.busyCheckingToken" = "Kontrola kódu…";
+"common.toastCopiedClipboard" = "Zkopírováno. Schránka se vymaže za 45 s.";
+
+/* Steps */
+"step.source" = "Zdroj";
+"step.phrase" = "Fráze";
+"step.password" = "Heslo";
+"step.codes" = "Kódy";
+"step.done" = "Hotovo";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Nová fráze";
+"encrypt.titleEnter" = "Existující fráze";
+"encrypt.subtitleSource" = "Kde začneme?";
+"encrypt.subtitleCreate" = "Vygenerujte novou seed frázi.";
+"encrypt.subtitleEnter" = "Zadejte nebo vložte existující seed frázi.";
+"encrypt.subtitlePassword" = "Zvolte silné heslo a potvrďte ho.";
+"encrypt.subtitleResult" = "Uložte kódy. Pořadí nehraje roli.";
+"encrypt.sourceNewTitle" = "Nová seed fráze";
+"encrypt.sourceNewSubtitle" = "Generovat a šifrovat";
+"encrypt.sourceExistingTitle" = "Existující seed fráze";
+"encrypt.sourceExistingSubtitle" = "Zadat nebo vložit ručně";
+"encrypt.shuffleExport" = "Zamíchat při kopírování / ukládání";
+"encrypt.shuffleExportHint" = "Na obrazovce pořadí zůstává; při exportu se zamíchá.";
+"encrypt.toastDone" = "Hotovo. Uložte kódy na bezpečné místo.";
+"encrypt.toastPhrasePasted" = "Fráze vložena ze schránky.";
+
+/* Phrase */
+"phrase.length" = "Délka fráze";
+"phrase.notCreated" = "Fráze ještě nebyla vytvořena";
+"phrase.notCreatedHint" = "Zvolte délku a klepněte na Generovat.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Zvolte délku. Výchozí z nastavení.";
+"decrypt.subtitlePassword" = "Zadejte heslo použité při šifrování.";
+"decrypt.subtitleCodes" = "Zadejte kódy nebo načtěte soubor. Pořadí nehraje roli.";
+"decrypt.subtitleResult" = "Fráze obnovena. Uchovejte ji v bezpečí.";
+"decrypt.passwordHint" = "Musí odpovídat nastavení při šifrování.";
+"decrypt.enterCode" = "Zadat kód";
+"decrypt.pickCodesFile" = "Vybrat soubor kódů (.txt)";
+"decrypt.wordLength" = "Délka: %d (z nastavení)";
+"decrypt.toastPhraseRestored" = "Fráze obnovena.";
+"decrypt.toastWordFound" = "Slovo %d: pozice nalezena (%d/%d).";
+"decrypt.toastAdded" = "Přidáno. %d/%d.";
+"decrypt.toastAddedBatch" = "Přidáno %d. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Slovo %d z %d";
+"seed.allWordsEntered" = "Všechna slova zadána";
+"seed.placeholder" = "Pište slovo nebo vložte frázi…";
+"seed.hint" = "Návrhy od 4. písmene. Vložte celou frázi (⌘V).";
+"seed.phraseComplete" = "Fráze kompletní.";
+"seed.helpReplaceClipboard" = "Nahradit frázi ze schránky";
+"seed.helpPastePhrase" = "Vložit seed frázi (⇧⌘V)";
+"seed.helpClearAll" = "Vymazat všechna slova";
+"seed.toastClipboardEmpty" = "Schránka prázdná — zkopírujte seed frázi a zkuste znovu.";
+"seed.toastFillAll" = "Vyplňte všech %d slov.";
+"seed.toastValidated" = "Fráze ověřena.";
+
+/* Password */
+"password.minPlaceholder" = "Alespoň 8 znaků";
+"password.confirmPlaceholder" = "Zopakujte heslo";
+"password.mismatchInline" = "Hesla se neshodují";
+"password.strength.weak" = "Slabé";
+"password.strength.fair" = "Průměrné";
+"password.strength.strong" = "Silné";
+
+/* Drop zone */
+"dropzone.title" = "Načíst soubor kódů";
+"dropzone.subtitle" = "Přetáhněte .txt sem nebo klikněte pro výběr";
+
+/* Word search */
+"wordSearch.noMatch" = "Žádné BIP-39 slovo s tímto prefixem";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Náhled obrázku";
+"poster.savePNG" = "Uložit PNG";
+
+/* Import */
+"import.words" = "Slova";
+"import.version" = "Verze";
+"import.iterations" = "Iterace";
+"import.keyBytes" = "Klíč";
+"import.confirmTitle" = "Nastavení ze souboru";
+"import.confirmMessage" = "Použít nastavení ze souboru pro dešifrování?";
+"import.fileLoaded" = "Soubor načten";
+"import.changeFile" = "Změnit";
+
+/* Word count */
+"wordCount.resetTitle" = "Resetovat zadaná slova?";
+"wordCount.resetMessage" = "Změna délky vymaže aktuální frázi.";
+"wordCount.resetConfirm" = "Resetovat";
+"wordCount.label" = "%d slov";
+"wordCount.label21" = "21 slov";
+"wordCount.label24" = "24 slov";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Schránka je prázdná.";
+"toast.wrongWordCount" = "Ve schránce je %d slov — potřeba 12, 15, 18, 21 nebo 24.";
+"toast.wordNotInDictionary" = "Slovo %d «%@» nenalezeno ve slovníku.";
+
+/* Exit */
+"exit.clearTitle" = "Ukončit a vymazat data?";
+"exit.clearConfirm" = "Ukončit a vymazat";
+"exit.clearMessage" = "Zadaná fráze a heslo budou odstraněny z paměti.";
+
+/* Onboarding */
+"onboarding.title" = "Jak používat";
+"onboarding.1" = "Uchovávejte heslo odděleně od kódů.";
+"onboarding.2" = "Nastavení souboru musí sedět při šifrování i dešifrování.";
+"onboarding.3" = "Aplikace funguje zcela offline.";
+
+/* Language */
+"settings.sectionLanguage" = "Jazyk";
+"settings.language" = "Jazyk aplikace";
+"settings.languageSystem" = "Systém";
+"settings.tabGeneral" = "Obecné";
+"settings.tabEncryption" = "Šifrování";
+
+"settings.sectionHelp" = "Nápověda";
+"settings.showOnboarding" = "Zobrazit úvod znovu";
+
+/* Settings */
+"settings.title" = "Nastavení";
+"settings.sectionFormat" = "Formát";
+"settings.sectionDefaultPhrase" = "Výchozí fráze";
+"settings.sectionPassword" = "Ochrana heslem";
+"settings.version" = "Verze";
+"settings.defaultPhraseLength" = "Výchozí délka seed fráze";
+"settings.compat" = "Nastavení musí sedět při šifrování i dešifrování. Jinak se kódy neotevřou.";
+"settings.iterations" = "Iterace";
+"settings.keySize" = "Velikost klíče";
+"settings.iterationsHint" = "Více iterací — pomalejší odemčení, těžší brute-force.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Pozice %d, slovo skryto";
+"a11y.progress" = "%d z %d";
+"a11y.stepNamed" = "%@, %d z %d";
+"a11y.stepGeneric" = "Krok %d z %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Zadejte heslo.";
+"error.hasher.passwordTooShort" = "Heslo příliš krátké — minimum 8 znaků.";
+"error.hasher.keyDerivationFailed" = "Heslo se nepodařilo zpracovat.";
+"error.hasher.invalidWordCount" = "Neplatný počet: %d. Potřeba 12, 15, 18, 21 nebo 24.";
+"error.hasher.unknownWord" = "Slovo «%@» není ve slovníku.";
+"error.hasher.invalidTokenFormat" = "Neplatný formát kódu «%@».";
+"error.hasher.tokenNotFound" = "Kód nenalezen. Zkontrolujte heslo, délku a pravopis.";
+"error.hasher.ambiguousToken" = "Nejednoznačná shoda. Zkontrolujte nastavení a heslo.";
+"error.hasher.slotConflict" = "Konflikt: pozice %d je již obsazena.";
+"error.hasher.passwordMismatch" = "Heslo a potvrzení se neshodují.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Nepodařilo se získat kryptograficky bezpečnou náhodnost.";
+"error.bip39.invalidEntropyLength" = "Neplatná délka entropie pro BIP-39.";
+"error.bip39.wordlistCorrupted" = "Seznam BIP-39 poškozen (očekáváno 2048 slov).";
+"error.bip39.invalidWord" = "Slovo «%@» není ve slovníku BIP-39.";
+"error.bip39.invalidChecksum" = "Neplatný BIP-39 checksum.";
+
+/* Import errors */
+"error.import.unreadable" = "Soubor se nepodařilo přečíst.";
+"error.import.empty" = "Soubor je prázdný.";
+"error.import.noTokens" = "V souboru nebyly nalezeny kódy.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Autor: Markus Lind";
+"menu.about" = "O aplikaci %@";
+"menu.navigate" = "Navigace";
+"about.tagline" = "Offline obfuskace pro BIP-39 seed fráze.";
+"about.offline" = "Funguje zcela offline · nic se neposílá po síti";

@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "シードフレーズ保護";
+"home.subtitle" = "パスワードでフレーズを隠すか、保存したコードから復元します。";
+"home.encrypt" = "暗号化";
+"home.decrypt" = "復号";
+"home.encryptSubtitle" = "フレーズを作成または入力してコードを取得";
+"home.decryptSubtitle" = "コードとパスワードを入力してフレーズを復元";
+"home.settingsHelp" = "設定";
+"home.settingsSummary" = "現在: %d語 · %@ 反復 · キー %d";
+
+/* Common */
+"common.next" = "次へ";
+"common.show" = "表示";
+"common.hide" = "非表示";
+"common.paste" = "貼り付け";
+"common.clear" = "クリア";
+"common.copy" = "コピー";
+"common.copied" = "コピーしました";
+"common.toFile" = "ファイルへ";
+"common.home" = "ホーム";
+"common.again" = "もう一度";
+"common.apply" = "適用";
+"common.cancel" = "キャンセル";
+"common.understood" = "了解";
+"common.add" = "追加";
+"common.password" = "パスワード";
+"common.close" = "閉じる";
+"common.generate" = "生成";
+"common.encrypt" = "暗号化";
+"common.validate" = "検証";
+"common.progress" = "進捗";
+"common.poster" = "画像";
+"common.busyPassword" = "パスワードを処理中…";
+"common.busyCheckingToken" = "コードを確認中…";
+"common.toastCopiedClipboard" = "コピーしました。45秒後にクリップボードを消去します。";
+
+/* Steps */
+"step.source" = "ソース";
+"step.phrase" = "フレーズ";
+"step.password" = "パスワード";
+"step.codes" = "コード";
+"step.done" = "完了";
+
+/* Encrypt */
+"encrypt.titleCreate" = "新しいフレーズ";
+"encrypt.titleEnter" = "既存のフレーズ";
+"encrypt.subtitleSource" = "どこから始めますか？";
+"encrypt.subtitleCreate" = "新しいシードフレーズを生成します。";
+"encrypt.subtitleEnter" = "既存のシードフレーズを入力または貼り付け。";
+"encrypt.subtitlePassword" = "強力なパスワードを選び、確認してください。";
+"encrypt.subtitleResult" = "コードを保存してください。順序は関係ありません。";
+"encrypt.sourceNewTitle" = "新しいシードフレーズ";
+"encrypt.sourceNewSubtitle" = "生成して暗号化";
+"encrypt.sourceExistingTitle" = "既存のシードフレーズ";
+"encrypt.sourceExistingSubtitle" = "手動で入力または貼り付け";
+"encrypt.shuffleExport" = "コピー/保存時にシャッフル";
+"encrypt.shuffleExportHint" = "画面では順序はそのまま、エクスポート時にシャッフルされます。";
+"encrypt.toastDone" = "完了。コードを安全な場所に保存してください。";
+"encrypt.toastPhrasePasted" = "クリップボードからフレーズを貼り付けました。";
+
+/* Phrase */
+"phrase.length" = "フレーズの長さ";
+"phrase.notCreated" = "フレーズはまだ作成されていません";
+"phrase.notCreatedHint" = "長さを選んで「生成」をタップ。";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "フレーズの長さを選択。デフォルトは設定から。";
+"decrypt.subtitlePassword" = "暗号化時に使用したパスワードを入力。";
+"decrypt.subtitleCodes" = "コードを入力するかファイルを読み込み。順序は関係ありません。";
+"decrypt.subtitleResult" = "フレーズを復元しました。安全に保管してください。";
+"decrypt.passwordHint" = "暗号化時の設定と一致する必要があります。";
+"decrypt.enterCode" = "コードを入力";
+"decrypt.pickCodesFile" = "コードファイルを選択 (.txt)";
+"decrypt.wordLength" = "長さ: %d（設定から）";
+"decrypt.toastPhraseRestored" = "フレーズを復元しました。";
+"decrypt.toastWordFound" = "単語 %d: 位置を特定 (%d/%d)。";
+"decrypt.toastAdded" = "追加しました。%d/%d。";
+"decrypt.toastAddedBatch" = "%d 件追加。%d/%d。";
+
+/* Seed entry */
+"seed.wordProgress" = "単語 %d / %d";
+"seed.allWordsEntered" = "すべての単語を入力済み";
+"seed.placeholder" = "単語を入力するかフレーズを貼り付け…";
+"seed.hint" = "4文字目から候補を表示。フレーズ全体を貼り付け (⌘V)。";
+"seed.phraseComplete" = "フレーズ完成。";
+"seed.helpReplaceClipboard" = "クリップボードからフレーズを置換";
+"seed.helpPastePhrase" = "シードフレーズを貼り付け (⇧⌘V)";
+"seed.helpClearAll" = "すべての単語をクリア";
+"seed.toastClipboardEmpty" = "クリップボードが空です — シードフレーズをコピーして再試行。";
+"seed.toastFillAll" = "すべての %d 語を入力してください。";
+"seed.toastValidated" = "フレーズを検証しました。";
+
+/* Password */
+"password.minPlaceholder" = "8文字以上";
+"password.confirmPlaceholder" = "パスワードを再入力";
+"password.mismatchInline" = "パスワードが一致しません";
+"password.strength.weak" = "弱い";
+"password.strength.fair" = "普通";
+"password.strength.strong" = "強い";
+
+/* Drop zone */
+"dropzone.title" = "コードファイルを読み込み";
+"dropzone.subtitle" = ".txt をここにドロップするかクリックして選択";
+
+/* Word search */
+"wordSearch.noMatch" = "この接頭辞の BIP-39 単語はありません";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "画像プレビュー";
+"poster.savePNG" = "PNG を保存";
+
+/* Import */
+"import.words" = "単語数";
+"import.version" = "バージョン";
+"import.iterations" = "反復回数";
+"import.keyBytes" = "キー";
+"import.confirmTitle" = "ファイルの設定";
+"import.confirmMessage" = "復号にファイルの設定を適用しますか？";
+"import.fileLoaded" = "ファイルを読み込みました";
+"import.changeFile" = "変更";
+
+/* Word count */
+"wordCount.resetTitle" = "入力した単語をリセットしますか？";
+"wordCount.resetMessage" = "長さを変更すると現在のフレーズが消去されます。";
+"wordCount.resetConfirm" = "リセット";
+"wordCount.label" = "%d 語";
+"wordCount.label21" = "21 語";
+"wordCount.label24" = "24 語";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "クリップボードが空です。";
+"toast.wrongWordCount" = "クリップボードに %d 語 — 12、15、18、21、または 24 が必要です。";
+"toast.wordNotInDictionary" = "単語 %d «%@» が辞書に見つかりません。";
+
+/* Exit */
+"exit.clearTitle" = "終了してデータを消去しますか？";
+"exit.clearConfirm" = "終了して消去";
+"exit.clearMessage" = "入力したフレーズとパスワードはメモリから削除されます。";
+
+/* Onboarding */
+"onboarding.title" = "使い方";
+"onboarding.1" = "パスワードはコードとは別に保管してください。";
+"onboarding.2" = "暗号化と復号でファイル設定が一致している必要があります。";
+"onboarding.3" = "このアプリは完全にオフラインで動作します。";
+
+/* Language */
+"settings.sectionLanguage" = "言語";
+"settings.language" = "アプリの言語";
+"settings.languageSystem" = "システム";
+"settings.tabGeneral" = "一般";
+"settings.tabEncryption" = "暗号化";
+
+"settings.sectionHelp" = "ヘルプ";
+"settings.showOnboarding" = "使い方を再度表示";
+
+/* Settings */
+"settings.title" = "設定";
+"settings.sectionFormat" = "形式";
+"settings.sectionDefaultPhrase" = "デフォルトフレーズ";
+"settings.sectionPassword" = "パスワード保護";
+"settings.version" = "バージョン";
+"settings.defaultPhraseLength" = "デフォルトのシードフレーズ長";
+"settings.compat" = "暗号化と復号で設定が一致している必要があります。一致しないとコードは開けません。";
+"settings.iterations" = "反復回数";
+"settings.keySize" = "キーサイズ";
+"settings.iterationsHint" = "反復回数が多いほど解除は遅くなり、総当たり攻撃に強くなります。";
+
+/* Accessibility */
+"a11y.hiddenWord" = "位置 %d、単語は非表示";
+"a11y.progress" = "%d / %d";
+"a11y.stepNamed" = "%@、%d / %d";
+"a11y.stepGeneric" = "ステップ %d / %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "パスワードを入力してください。";
+"error.hasher.passwordTooShort" = "パスワードが短すぎます — 最低 8 文字。";
+"error.hasher.keyDerivationFailed" = "パスワードを処理できませんでした。";
+"error.hasher.invalidWordCount" = "無効な数: %d。12、15、18、21、または 24 が必要です。";
+"error.hasher.unknownWord" = "単語 «%@» は辞書にありません。";
+"error.hasher.invalidTokenFormat" = "無効なコード形式 «%@»。";
+"error.hasher.tokenNotFound" = "コードが見つかりません。パスワード、長さ、スペルを確認してください。";
+"error.hasher.ambiguousToken" = "曖昧な一致。設定とパスワードを確認してください。";
+"error.hasher.slotConflict" = "競合: 位置 %d は既に埋まっています。";
+"error.hasher.passwordMismatch" = "パスワードと確認が一致しません。";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "暗号学的に安全な乱数を取得できませんでした。";
+"error.bip39.invalidEntropyLength" = "BIP-39 のエントロピー長が無効です。";
+"error.bip39.wordlistCorrupted" = "BIP-39 単語リストが破損しています（2048 語が必要）。";
+"error.bip39.invalidWord" = "単語 «%@» は BIP-39 辞書にありません。";
+"error.bip39.invalidChecksum" = "BIP-39 チェックサムが無効です。";
+
+/* Import errors */
+"error.import.unreadable" = "ファイルを読み取れませんでした。";
+"error.import.empty" = "ファイルが空です。";
+"error.import.noTokens" = "ファイルにコードが見つかりません。";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "作成: Markus Lind";
+"menu.about" = "%@について";
+"menu.navigate" = "ナビゲーション";
+"about.tagline" = "BIP-39 シードフレーズのオフライン難読化。";
+"about.offline" = "完全オフライン · ネットワークには何も送信されません";

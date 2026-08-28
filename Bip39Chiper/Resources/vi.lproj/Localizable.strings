@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Bảo vệ cụm từ seed";
+"home.subtitle" = "Ẩn cụm từ bằng mật khẩu hoặc khôi phục từ các mã đã lưu.";
+"home.encrypt" = "Mã hóa";
+"home.decrypt" = "Giải mã";
+"home.encryptSubtitle" = "Tạo hoặc nhập cụm từ và nhận mã";
+"home.decryptSubtitle" = "Nhập mã và mật khẩu để khôi phục cụm từ";
+"home.settingsHelp" = "Cài đặt";
+"home.settingsSummary" = "Hiện tại: %d từ · %@ lần lặp · khóa %d";
+
+/* Common */
+"common.next" = "Tiếp";
+"common.show" = "Hiện";
+"common.hide" = "Ẩn";
+"common.paste" = "Dán";
+"common.clear" = "Xóa";
+"common.copy" = "Sao chép";
+"common.copied" = "Đã sao chép";
+"common.toFile" = "Ra tệp";
+"common.home" = "Trang chủ";
+"common.again" = "Làm lại";
+"common.apply" = "Áp dụng";
+"common.cancel" = "Hủy";
+"common.understood" = "Đã hiểu";
+"common.add" = "Thêm";
+"common.password" = "Mật khẩu";
+"common.close" = "Đóng";
+"common.generate" = "Tạo";
+"common.encrypt" = "Mã hóa";
+"common.validate" = "Xác minh";
+"common.progress" = "Tiến độ";
+"common.poster" = "Hình ảnh";
+"common.busyPassword" = "Đang xử lý mật khẩu…";
+"common.busyCheckingToken" = "Đang kiểm tra mã…";
+"common.toastCopiedClipboard" = "Đã sao chép. Bộ nhớ tạm sẽ xóa sau 45 giây.";
+
+/* Steps */
+"step.source" = "Nguồn";
+"step.phrase" = "Cụm từ";
+"step.password" = "Mật khẩu";
+"step.codes" = "Mã";
+"step.done" = "Xong";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Cụm từ mới";
+"encrypt.titleEnter" = "Cụm từ có sẵn";
+"encrypt.subtitleSource" = "Bắt đầu từ đâu?";
+"encrypt.subtitleCreate" = "Tạo cụm từ seed mới.";
+"encrypt.subtitleEnter" = "Nhập hoặc dán cụm từ seed có sẵn.";
+"encrypt.subtitlePassword" = "Chọn mật khẩu mạnh và xác nhận.";
+"encrypt.subtitleResult" = "Lưu các mã. Thứ tự không quan trọng.";
+"encrypt.sourceNewTitle" = "Cụm từ seed mới";
+"encrypt.sourceNewSubtitle" = "Tạo và mã hóa";
+"encrypt.sourceExistingTitle" = "Cụm từ seed có sẵn";
+"encrypt.sourceExistingSubtitle" = "Nhập hoặc dán thủ công";
+"encrypt.shuffleExport" = "Xáo trộn khi sao chép / lưu";
+"encrypt.shuffleExportHint" = "Trên màn hình thứ tự giữ nguyên; khi xuất sẽ xáo trộn.";
+"encrypt.toastDone" = "Xong. Lưu mã ở nơi an toàn.";
+"encrypt.toastPhrasePasted" = "Đã dán cụm từ từ bộ nhớ tạm.";
+
+/* Phrase */
+"phrase.length" = "Độ dài cụm từ";
+"phrase.notCreated" = "Chưa tạo cụm từ";
+"phrase.notCreatedHint" = "Chọn độ dài và nhấn Tạo.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Chọn độ dài. Mặc định từ cài đặt.";
+"decrypt.subtitlePassword" = "Nhập mật khẩu đã dùng khi mã hóa.";
+"decrypt.subtitleCodes" = "Nhập mã hoặc tải tệp. Thứ tự không quan trọng.";
+"decrypt.subtitleResult" = "Đã khôi phục cụm từ. Lưu trữ an toàn.";
+"decrypt.passwordHint" = "Phải khớp cài đặt khi mã hóa.";
+"decrypt.enterCode" = "Nhập mã";
+"decrypt.pickCodesFile" = "Chọn tệp mã (.txt)";
+"decrypt.wordLength" = "Độ dài: %d (từ cài đặt)";
+"decrypt.toastPhraseRestored" = "Đã khôi phục cụm từ.";
+"decrypt.toastWordFound" = "Từ %d: đã tìm vị trí (%d/%d).";
+"decrypt.toastAdded" = "Đã thêm. %d/%d.";
+"decrypt.toastAddedBatch" = "Đã thêm %d. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Từ %d / %d";
+"seed.allWordsEntered" = "Đã nhập đủ từ";
+"seed.placeholder" = "Nhập từ hoặc dán cụm từ…";
+"seed.hint" = "Gợi ý từ chữ cái thứ 4. Dán toàn bộ cụm từ (⌘V).";
+"seed.phraseComplete" = "Cụm từ đầy đủ.";
+"seed.helpReplaceClipboard" = "Thay cụm từ từ bộ nhớ tạm";
+"seed.helpPastePhrase" = "Dán cụm từ seed (⇧⌘V)";
+"seed.helpClearAll" = "Xóa tất cả từ";
+"seed.toastClipboardEmpty" = "Bộ nhớ tạm trống — sao chép cụm từ seed và thử lại.";
+"seed.toastFillAll" = "Điền đủ %d từ.";
+"seed.toastValidated" = "Đã xác minh cụm từ.";
+
+/* Password */
+"password.minPlaceholder" = "Ít nhất 8 ký tự";
+"password.confirmPlaceholder" = "Nhập lại mật khẩu";
+"password.mismatchInline" = "Mật khẩu không khớp";
+"password.strength.weak" = "Yếu";
+"password.strength.fair" = "Trung bình";
+"password.strength.strong" = "Mạnh";
+
+/* Drop zone */
+"dropzone.title" = "Tải tệp mã";
+"dropzone.subtitle" = "Thả tệp .txt vào đây hoặc nhấn để chọn";
+
+/* Word search */
+"wordSearch.noMatch" = "Không có từ BIP-39 với tiền tố này";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Xem trước hình";
+"poster.savePNG" = "Lưu PNG";
+
+/* Import */
+"import.words" = "Từ";
+"import.version" = "Phiên bản";
+"import.iterations" = "Lần lặp";
+"import.keyBytes" = "Khóa";
+"import.confirmTitle" = "Cài đặt từ tệp";
+"import.confirmMessage" = "Áp dụng cài đặt từ tệp để giải mã?";
+"import.fileLoaded" = "Đã tải tệp";
+"import.changeFile" = "Đổi";
+
+/* Word count */
+"wordCount.resetTitle" = "Đặt lại từ đã nhập?";
+"wordCount.resetMessage" = "Đổi độ dài sẽ xóa cụm từ hiện tại.";
+"wordCount.resetConfirm" = "Đặt lại";
+"wordCount.label" = "%d từ";
+"wordCount.label21" = "21 từ";
+"wordCount.label24" = "24 từ";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Bộ nhớ tạm trống.";
+"toast.wrongWordCount" = "Bộ nhớ tạm có %d từ — cần 12, 15, 18, 21 hoặc 24.";
+"toast.wordNotInDictionary" = "Từ %d «%@» không có trong từ điển.";
+
+/* Exit */
+"exit.clearTitle" = "Thoát và xóa dữ liệu?";
+"exit.clearConfirm" = "Thoát và xóa";
+"exit.clearMessage" = "Cụm từ và mật khẩu đã nhập sẽ bị xóa khỏi bộ nhớ.";
+
+/* Onboarding */
+"onboarding.title" = "Cách dùng";
+"onboarding.1" = "Lưu mật khẩu riêng với các mã.";
+"onboarding.2" = "Cài đặt tệp phải khớp khi mã hóa và giải mã.";
+"onboarding.3" = "Ứng dụng hoạt động hoàn toàn ngoại tuyến.";
+
+/* Language */
+"settings.sectionLanguage" = "Ngôn ngữ";
+"settings.language" = "Ngôn ngữ ứng dụng";
+"settings.languageSystem" = "Hệ thống";
+"settings.tabGeneral" = "Chung";
+"settings.tabEncryption" = "Mã hóa";
+
+"settings.sectionHelp" = "Trợ giúp";
+"settings.showOnboarding" = "Hiện lại hướng dẫn";
+
+/* Settings */
+"settings.title" = "Cài đặt";
+"settings.sectionFormat" = "Định dạng";
+"settings.sectionDefaultPhrase" = "Cụm từ mặc định";
+"settings.sectionPassword" = "Bảo vệ mật khẩu";
+"settings.version" = "Phiên bản";
+"settings.defaultPhraseLength" = "Độ dài cụm từ seed mặc định";
+"settings.compat" = "Cài đặt phải khớp khi mã hóa và giải mã. Nếu không, mã sẽ không mở được.";
+"settings.iterations" = "Lần lặp";
+"settings.keySize" = "Kích thước khóa";
+"settings.iterationsHint" = "Nhiều lần lặp hơn — mở khóa chậm hơn, khó brute-force hơn.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Vị trí %d, từ đã ẩn";
+"a11y.progress" = "%d / %d";
+"a11y.stepNamed" = "%@, %d / %d";
+"a11y.stepGeneric" = "Bước %d / %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Nhập mật khẩu.";
+"error.hasher.passwordTooShort" = "Mật khẩu quá ngắn — tối thiểu 8 ký tự.";
+"error.hasher.keyDerivationFailed" = "Không thể xử lý mật khẩu.";
+"error.hasher.invalidWordCount" = "Số lượng không hợp lệ: %d. Cần 12, 15, 18, 21 hoặc 24.";
+"error.hasher.unknownWord" = "Từ «%@» không có trong từ điển.";
+"error.hasher.invalidTokenFormat" = "Định dạng mã không hợp lệ «%@».";
+"error.hasher.tokenNotFound" = "Không tìm thấy mã. Kiểm tra mật khẩu, độ dài và chính tả.";
+"error.hasher.ambiguousToken" = "Khớp không rõ ràng. Kiểm tra cài đặt và mật khẩu.";
+"error.hasher.slotConflict" = "Xung đột: vị trí %d đã được dùng.";
+"error.hasher.passwordMismatch" = "Mật khẩu và xác nhận không khớp.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Không thể lấy số ngẫu nhiên an toàn về mật mã.";
+"error.bip39.invalidEntropyLength" = "Độ dài entropy không hợp lệ cho BIP-39.";
+"error.bip39.wordlistCorrupted" = "Danh sách BIP-39 bị hỏng (cần 2048 từ).";
+"error.bip39.invalidWord" = "Từ «%@» không có trong từ điển BIP-39.";
+"error.bip39.invalidChecksum" = "Checksum BIP-39 không hợp lệ.";
+
+/* Import errors */
+"error.import.unreadable" = "Không thể đọc tệp.";
+"error.import.empty" = "Tệp trống.";
+"error.import.noTokens" = "Không tìm thấy mã trong tệp.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Tạo bởi Markus Lind";
+"menu.about" = "Giới thiệu %@";
+"menu.navigate" = "Điều hướng";
+"about.tagline" = "Che giấu ngoại tuyến cho cụm từ seed BIP-39.";
+"about.offline" = "Hoạt động hoàn toàn ngoại tuyến · không gửi gì qua mạng";

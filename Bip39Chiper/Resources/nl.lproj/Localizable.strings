@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Seed phrase bescherming";
+"home.subtitle" = "Verberg je phrase met een wachtwoord of herstel hem uit opgeslagen codes.";
+"home.encrypt" = "Versleutelen";
+"home.decrypt" = "Ontsleutelen";
+"home.encryptSubtitle" = "Maak of voer je phrase in en krijg codes";
+"home.decryptSubtitle" = "Voer codes en wachtwoord in om je phrase te herstellen";
+"home.settingsHelp" = "Instellingen";
+"home.settingsSummary" = "Huidig: %d woorden · %@ iter · sleutel %d";
+
+/* Common */
+"common.next" = "Volgende";
+"common.show" = "Tonen";
+"common.hide" = "Verbergen";
+"common.paste" = "Plakken";
+"common.clear" = "Wissen";
+"common.copy" = "Kopiëren";
+"common.copied" = "Gekopieerd";
+"common.toFile" = "Naar bestand";
+"common.home" = "Home";
+"common.again" = "Opnieuw";
+"common.apply" = "Toepassen";
+"common.cancel" = "Annuleren";
+"common.understood" = "Begrepen";
+"common.add" = "Toevoegen";
+"common.password" = "Wachtwoord";
+"common.close" = "Sluiten";
+"common.generate" = "Genereren";
+"common.encrypt" = "Versleutelen";
+"common.validate" = "Valideren";
+"common.progress" = "Voortgang";
+"common.poster" = "Afbeelding";
+"common.busyPassword" = "Wachtwoord verwerken…";
+"common.busyCheckingToken" = "Code controleren…";
+"common.toastCopiedClipboard" = "Gekopieerd. Klembord wordt over 45 sec. gewist.";
+
+/* Steps */
+"step.source" = "Bron";
+"step.phrase" = "Phrase";
+"step.password" = "Wachtwoord";
+"step.codes" = "Codes";
+"step.done" = "Klaar";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Nieuwe phrase";
+"encrypt.titleEnter" = "Bestaande phrase";
+"encrypt.subtitleSource" = "Waar beginnen we?";
+"encrypt.subtitleCreate" = "Genereer een nieuwe seed phrase.";
+"encrypt.subtitleEnter" = "Voer een bestaande seed phrase in of plak hem.";
+"encrypt.subtitlePassword" = "Kies een sterk wachtwoord en bevestig het.";
+"encrypt.subtitleResult" = "Bewaar de codes. Volgorde maakt niet uit.";
+"encrypt.sourceNewTitle" = "Nieuwe seed phrase";
+"encrypt.sourceNewSubtitle" = "Genereren en versleutelen";
+"encrypt.sourceExistingTitle" = "Bestaande seed phrase";
+"encrypt.sourceExistingSubtitle" = "Handmatig invoeren of plakken";
+"encrypt.shuffleExport" = "Schudden bij kopiëren / opslaan";
+"encrypt.shuffleExportHint" = "Op scherm blijft de volgorde; bij export wordt geschud.";
+"encrypt.toastDone" = "Klaar. Bewaar de codes op een veilige plek.";
+"encrypt.toastPhrasePasted" = "Phrase geplakt vanuit klembord.";
+
+/* Phrase */
+"phrase.length" = "Phraselengte";
+"phrase.notCreated" = "Phrase nog niet aangemaakt";
+"phrase.notCreatedHint" = "Kies lengte en tik op Genereren.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Kies phraselengte. Standaard uit instellingen.";
+"decrypt.subtitlePassword" = "Voer het wachtwoord in dat bij versleutelen is gebruikt.";
+"decrypt.subtitleCodes" = "Voer codes in of laad een bestand. Volgorde maakt niet uit.";
+"decrypt.subtitleResult" = "Phrase hersteld. Bewaar hem veilig.";
+"decrypt.passwordHint" = "Moet overeenkomen met instellingen bij versleutelen.";
+"decrypt.enterCode" = "Code invoeren";
+"decrypt.pickCodesFile" = "Codesbestand kiezen (.txt)";
+"decrypt.wordLength" = "Lengte: %d (uit instellingen)";
+"decrypt.toastPhraseRestored" = "Phrase hersteld.";
+"decrypt.toastWordFound" = "Woord %d: positie gevonden (%d/%d).";
+"decrypt.toastAdded" = "Toegevoegd. %d/%d.";
+"decrypt.toastAddedBatch" = "%d toegevoegd. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Woord %d van %d";
+"seed.allWordsEntered" = "Alle woorden ingevoerd";
+"seed.placeholder" = "Typ een woord of plak een phrase…";
+"seed.hint" = "Suggesties vanaf de 4e letter. Plak een volledige phrase (⌘V).";
+"seed.phraseComplete" = "Phrase compleet.";
+"seed.helpReplaceClipboard" = "Phrase vervangen vanuit klembord";
+"seed.helpPastePhrase" = "Seed phrase plakken (⇧⌘V)";
+"seed.helpClearAll" = "Alle woorden wissen";
+"seed.toastClipboardEmpty" = "Klembord leeg — kopieer een seed phrase en probeer opnieuw.";
+"seed.toastFillAll" = "Vul alle %d woorden in.";
+"seed.toastValidated" = "Phrase geverifieerd.";
+
+/* Password */
+"password.minPlaceholder" = "Minimaal 8 tekens";
+"password.confirmPlaceholder" = "Wachtwoord herhalen";
+"password.mismatchInline" = "Wachtwoorden komen niet overeen";
+"password.strength.weak" = "Zwak";
+"password.strength.fair" = "Redelijk";
+"password.strength.strong" = "Sterk";
+
+/* Drop zone */
+"dropzone.title" = "Codesbestand laden";
+"dropzone.subtitle" = "Sleep een .txt hierheen of klik om te kiezen";
+
+/* Word search */
+"wordSearch.noMatch" = "Geen BIP-39-woord met dit voorvoegsel";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Afbeeldingsvoorbeeld";
+"poster.savePNG" = "PNG opslaan";
+
+/* Import */
+"import.words" = "Woorden";
+"import.version" = "Versie";
+"import.iterations" = "Iteraties";
+"import.keyBytes" = "Sleutel";
+"import.confirmTitle" = "Instellingen uit bestand";
+"import.confirmMessage" = "Instellingen uit bestand toepassen voor ontsleutelen?";
+"import.fileLoaded" = "Bestand geladen";
+"import.changeFile" = "Wijzigen";
+
+/* Word count */
+"wordCount.resetTitle" = "Ingevoerde woorden resetten?";
+"wordCount.resetMessage" = "Lengte wijzigen wist de huidige phrase.";
+"wordCount.resetConfirm" = "Resetten";
+"wordCount.label" = "%d woorden";
+"wordCount.label21" = "21 woorden";
+"wordCount.label24" = "24 woorden";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Klembord is leeg.";
+"toast.wrongWordCount" = "Klembord heeft %d woorden — nodig: 12, 15, 18, 21 of 24.";
+"toast.wordNotInDictionary" = "Woord %d «%@» niet gevonden in woordenboek.";
+
+/* Exit */
+"exit.clearTitle" = "Afsluiten en gegevens wissen?";
+"exit.clearConfirm" = "Afsluiten en wissen";
+"exit.clearMessage" = "Ingevoerde phrase en wachtwoord worden uit het geheugen verwijderd.";
+
+/* Onboarding */
+"onboarding.title" = "Gebruik";
+"onboarding.1" = "Bewaar het wachtwoord apart van de codes.";
+"onboarding.2" = "Bestandsinstellingen moeten overeenkomen bij versleutelen en ontsleutelen.";
+"onboarding.3" = "De app werkt volledig offline.";
+
+/* Language */
+"settings.sectionLanguage" = "Taal";
+"settings.language" = "App-taal";
+"settings.languageSystem" = "Systeem";
+"settings.tabGeneral" = "Algemeen";
+"settings.tabEncryption" = "Versleuteling";
+
+"settings.sectionHelp" = "Help";
+"settings.showOnboarding" = "Introductie opnieuw tonen";
+
+/* Settings */
+"settings.title" = "Instellingen";
+"settings.sectionFormat" = "Formaat";
+"settings.sectionDefaultPhrase" = "Standaard phrase";
+"settings.sectionPassword" = "Wachtwoordbeveiliging";
+"settings.version" = "Versie";
+"settings.defaultPhraseLength" = "Standaard seed phrase-lengte";
+"settings.compat" = "Instellingen moeten overeenkomen bij versleutelen en ontsleutelen. Anders openen codes niet.";
+"settings.iterations" = "Iteraties";
+"settings.keySize" = "Sleutelgrootte";
+"settings.iterationsHint" = "Meer iteraties — langzamer ontgrendelen, moeilijker te brute-forcen.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Positie %d, woord verborgen";
+"a11y.progress" = "%d van %d";
+"a11y.stepNamed" = "%@, %d van %d";
+"a11y.stepGeneric" = "Stap %d van %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Voer een wachtwoord in.";
+"error.hasher.passwordTooShort" = "Wachtwoord te kort — minimaal 8 tekens.";
+"error.hasher.keyDerivationFailed" = "Wachtwoord kon niet worden verwerkt.";
+"error.hasher.invalidWordCount" = "Ongeldig aantal: %d. Nodig: 12, 15, 18, 21 of 24.";
+"error.hasher.unknownWord" = "Woord «%@» staat niet in het woordenboek.";
+"error.hasher.invalidTokenFormat" = "Ongeldig codeformaat «%@».";
+"error.hasher.tokenNotFound" = "Code niet gevonden. Controleer wachtwoord, lengte en spelling.";
+"error.hasher.ambiguousToken" = "Dubbelzinnige match. Controleer instellingen en wachtwoord.";
+"error.hasher.slotConflict" = "Conflict: positie %d is al ingevuld.";
+"error.hasher.passwordMismatch" = "Wachtwoord en bevestiging komen niet overeen.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Kon geen cryptografisch veilige willekeur ophalen.";
+"error.bip39.invalidEntropyLength" = "Ongeldige entropielengte voor BIP-39.";
+"error.bip39.wordlistCorrupted" = "BIP-39-woordenlijst beschadigd (2048 woorden verwacht).";
+"error.bip39.invalidWord" = "Woord «%@» staat niet in het BIP-39-woordenboek.";
+"error.bip39.invalidChecksum" = "Ongeldige BIP-39-checksum.";
+
+/* Import errors */
+"error.import.unreadable" = "Bestand kon niet worden gelezen.";
+"error.import.empty" = "Bestand is leeg.";
+"error.import.noTokens" = "Geen codes gevonden in bestand.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Gemaakt door Markus Lind";
+"menu.about" = "Over %@";
+"menu.navigate" = "Navigatie";
+"about.tagline" = "Offline obfuscatie voor BIP-39 seed phrases.";
+"about.offline" = "Werkt volledig offline · er wordt niets via het netwerk verzonden";

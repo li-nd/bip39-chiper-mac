@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "시드 문구 보호";
+"home.subtitle" = "비밀번호로 문구를 숨기거나 저장된 코드에서 복구하세요.";
+"home.encrypt" = "암호화";
+"home.decrypt" = "복호화";
+"home.encryptSubtitle" = "문구를 만들거나 입력하고 코드 받기";
+"home.decryptSubtitle" = "코드와 비밀번호를 입력해 문구 복구";
+"home.settingsHelp" = "설정";
+"home.settingsSummary" = "현재: %d단어 · %@ 반복 · 키 %d";
+
+/* Common */
+"common.next" = "다음";
+"common.show" = "표시";
+"common.hide" = "숨기기";
+"common.paste" = "붙여넣기";
+"common.clear" = "지우기";
+"common.copy" = "복사";
+"common.copied" = "복사됨";
+"common.toFile" = "파일로";
+"common.home" = "홈";
+"common.again" = "다시";
+"common.apply" = "적용";
+"common.cancel" = "취소";
+"common.understood" = "확인";
+"common.add" = "추가";
+"common.password" = "비밀번호";
+"common.close" = "닫기";
+"common.generate" = "생성";
+"common.encrypt" = "암호화";
+"common.validate" = "검증";
+"common.progress" = "진행";
+"common.poster" = "이미지";
+"common.busyPassword" = "비밀번호 처리 중…";
+"common.busyCheckingToken" = "코드 확인 중…";
+"common.toastCopiedClipboard" = "복사됨. 45초 후 클립보드가 지워집니다.";
+
+/* Steps */
+"step.source" = "소스";
+"step.phrase" = "문구";
+"step.password" = "비밀번호";
+"step.codes" = "코드";
+"step.done" = "완료";
+
+/* Encrypt */
+"encrypt.titleCreate" = "새 문구";
+"encrypt.titleEnter" = "기존 문구";
+"encrypt.subtitleSource" = "어디서 시작할까요?";
+"encrypt.subtitleCreate" = "새 시드 문구를 생성합니다.";
+"encrypt.subtitleEnter" = "기존 시드 문구를 입력하거나 붙여넣으세요.";
+"encrypt.subtitlePassword" = "강력한 비밀번호를 선택하고 확인하세요.";
+"encrypt.subtitleResult" = "코드를 저장하세요. 순서는 중요하지 않습니다.";
+"encrypt.sourceNewTitle" = "새 시드 문구";
+"encrypt.sourceNewSubtitle" = "생성 및 암호화";
+"encrypt.sourceExistingTitle" = "기존 시드 문구";
+"encrypt.sourceExistingSubtitle" = "직접 입력 또는 붙여넣기";
+"encrypt.shuffleExport" = "복사/저장 시 섞기";
+"encrypt.shuffleExportHint" = "화면에서는 순서 유지, 내보낼 때 섞입니다.";
+"encrypt.toastDone" = "완료. 코드를 안전한 곳에 보관하세요.";
+"encrypt.toastPhrasePasted" = "클립보드에서 문구를 붙였습니다.";
+
+/* Phrase */
+"phrase.length" = "문구 길이";
+"phrase.notCreated" = "아직 문구가 생성되지 않았습니다";
+"phrase.notCreatedHint" = "길이를 선택하고 생성을 누르세요.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "문구 길이 선택. 기본값은 설정에서.";
+"decrypt.subtitlePassword" = "암호화할 때 사용한 비밀번호를 입력하세요.";
+"decrypt.subtitleCodes" = "코드를 입력하거나 파일을 불러오세요. 순서는 중요하지 않습니다.";
+"decrypt.subtitleResult" = "문구가 복구되었습니다. 안전하게 보관하세요.";
+"decrypt.passwordHint" = "암호화 시 사용한 설정과 일치해야 합니다.";
+"decrypt.enterCode" = "코드 입력";
+"decrypt.pickCodesFile" = "코드 파일 선택 (.txt)";
+"decrypt.wordLength" = "길이: %d (설정에서)";
+"decrypt.toastPhraseRestored" = "문구가 복구되었습니다.";
+"decrypt.toastWordFound" = "단어 %d: 위치 찾음 (%d/%d).";
+"decrypt.toastAdded" = "추가됨. %d/%d.";
+"decrypt.toastAddedBatch" = "%d개 추가. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "단어 %d / %d";
+"seed.allWordsEntered" = "모든 단어 입력됨";
+"seed.placeholder" = "단어 입력 또는 문구 붙여넣기…";
+"seed.hint" = "4번째 글자부터 제안. 전체 문구 붙여넣기 (⌘V).";
+"seed.phraseComplete" = "문구 완성.";
+"seed.helpReplaceClipboard" = "클립보드에서 문구 교체";
+"seed.helpPastePhrase" = "시드 문구 붙여넣기 (⇧⌘V)";
+"seed.helpClearAll" = "모든 단어 지우기";
+"seed.toastClipboardEmpty" = "클립보드가 비어 있습니다 — 시드 문구를 복사하고 다시 시도하세요.";
+"seed.toastFillAll" = "모든 %d단어를 입력하세요.";
+"seed.toastValidated" = "문구가 검증되었습니다.";
+
+/* Password */
+"password.minPlaceholder" = "최소 8자";
+"password.confirmPlaceholder" = "비밀번호 다시 입력";
+"password.mismatchInline" = "비밀번호가 일치하지 않습니다";
+"password.strength.weak" = "약함";
+"password.strength.fair" = "보통";
+"password.strength.strong" = "강함";
+
+/* Drop zone */
+"dropzone.title" = "코드 파일 불러오기";
+"dropzone.subtitle" = ".txt 파일을 여기에 놓거나 클릭하여 선택";
+
+/* Word search */
+"wordSearch.noMatch" = "이 접두사의 BIP-39 단어 없음";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "이미지 미리보기";
+"poster.savePNG" = "PNG 저장";
+
+/* Import */
+"import.words" = "단어";
+"import.version" = "버전";
+"import.iterations" = "반복";
+"import.keyBytes" = "키";
+"import.confirmTitle" = "파일 설정";
+"import.confirmMessage" = "복호화에 파일 설정을 적용할까요?";
+"import.fileLoaded" = "파일 불러옴";
+"import.changeFile" = "변경";
+
+/* Word count */
+"wordCount.resetTitle" = "입력한 단어를 초기화할까요?";
+"wordCount.resetMessage" = "길이를 변경하면 현재 문구가 지워집니다.";
+"wordCount.resetConfirm" = "초기화";
+"wordCount.label" = "%d단어";
+"wordCount.label21" = "21단어";
+"wordCount.label24" = "24단어";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "클립보드가 비어 있습니다.";
+"toast.wrongWordCount" = "클립보드에 %d단어 — 12, 15, 18, 21 또는 24가 필요합니다.";
+"toast.wordNotInDictionary" = "단어 %d «%@»를 사전에서 찾을 수 없습니다.";
+
+/* Exit */
+"exit.clearTitle" = "종료하고 데이터를 지울까요?";
+"exit.clearConfirm" = "종료 및 지우기";
+"exit.clearMessage" = "입력한 문구와 비밀번호가 메모리에서 제거됩니다.";
+
+/* Onboarding */
+"onboarding.title" = "사용 방법";
+"onboarding.1" = "비밀번호는 코드와 따로 보관하세요.";
+"onboarding.2" = "암호화와 복호화 시 파일 설정이 일치해야 합니다.";
+"onboarding.3" = "앱은 완전히 오프라인으로 작동합니다.";
+
+/* Language */
+"settings.sectionLanguage" = "언어";
+"settings.language" = "앱 언어";
+"settings.languageSystem" = "시스템";
+"settings.tabGeneral" = "일반";
+"settings.tabEncryption" = "암호화";
+
+"settings.sectionHelp" = "도움말";
+"settings.showOnboarding" = "사용 방법 다시 보기";
+
+/* Settings */
+"settings.title" = "설정";
+"settings.sectionFormat" = "형식";
+"settings.sectionDefaultPhrase" = "기본 문구";
+"settings.sectionPassword" = "비밀번호 보호";
+"settings.version" = "버전";
+"settings.defaultPhraseLength" = "기본 시드 문구 길이";
+"settings.compat" = "암호화와 복호화 시 설정이 일치해야 합니다. 그렇지 않으면 코드가 열리지 않습니다.";
+"settings.iterations" = "반복";
+"settings.keySize" = "키 크기";
+"settings.iterationsHint" = "반복이 많을수록 잠금 해제는 느려지고 무차별 대입에 더 강합니다.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "위치 %d, 단어 숨김";
+"a11y.progress" = "%d / %d";
+"a11y.stepNamed" = "%@, %d / %d";
+"a11y.stepGeneric" = "단계 %d / %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "비밀번호를 입력하세요.";
+"error.hasher.passwordTooShort" = "비밀번호가 너무 짧습니다 — 최소 8자.";
+"error.hasher.keyDerivationFailed" = "비밀번호를 처리할 수 없습니다.";
+"error.hasher.invalidWordCount" = "잘못된 개수: %d. 12, 15, 18, 21 또는 24가 필요합니다.";
+"error.hasher.unknownWord" = "단어 «%@»가 사전에 없습니다.";
+"error.hasher.invalidTokenFormat" = "잘못된 코드 형식 «%@».";
+"error.hasher.tokenNotFound" = "코드를 찾을 수 없습니다. 비밀번호, 길이, 철자를 확인하세요.";
+"error.hasher.ambiguousToken" = "모호한 일치. 설정과 비밀번호를 확인하세요.";
+"error.hasher.slotConflict" = "충돌: 위치 %d가 이미 채워져 있습니다.";
+"error.hasher.passwordMismatch" = "비밀번호와 확인이 일치하지 않습니다.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "암호학적으로 안전한 난수를 얻을 수 없습니다.";
+"error.bip39.invalidEntropyLength" = "BIP-39에 유효하지 않은 엔트로피 길이.";
+"error.bip39.wordlistCorrupted" = "BIP-39 단어 목록 손상 (2048단어 필요).";
+"error.bip39.invalidWord" = "단어 «%@»가 BIP-39 사전에 없습니다.";
+"error.bip39.invalidChecksum" = "유효하지 않은 BIP-39 체크섬.";
+
+/* Import errors */
+"error.import.unreadable" = "파일을 읽을 수 없습니다.";
+"error.import.empty" = "파일이 비어 있습니다.";
+"error.import.noTokens" = "파일에서 코드를 찾을 수 없습니다.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "제작: Markus Lind";
+"menu.about" = "%@ 정보";
+"menu.navigate" = "탐색";
+"about.tagline" = "BIP-39 시드 문구를 위한 오프라인 난독화.";
+"about.offline" = "완전 오프라인 · 네트워크로 전송되는 것 없음";

@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Захист seed-фрази";
+"home.subtitle" = "Приховайте фразу за паролем або відновіть її зі збережених кодів.";
+"home.encrypt" = "Зашифрувати";
+"home.decrypt" = "Розшифрувати";
+"home.encryptSubtitle" = "Створіть або введіть фразу та отримайте коди";
+"home.decryptSubtitle" = "Введіть коди та пароль, щоб відновити фразу";
+"home.settingsHelp" = "Налаштування";
+"home.settingsSummary" = "Зараз: %d слів · %@ ітер · ключ %d";
+
+/* Common */
+"common.next" = "Далі";
+"common.show" = "Показати";
+"common.hide" = "Приховати";
+"common.paste" = "Вставити";
+"common.clear" = "Очистити";
+"common.copy" = "Копіювати";
+"common.copied" = "Скопійовано";
+"common.toFile" = "У файл";
+"common.home" = "Головна";
+"common.again" = "Знову";
+"common.apply" = "Застосувати";
+"common.cancel" = "Скасувати";
+"common.understood" = "Зрозуміло";
+"common.add" = "Додати";
+"common.password" = "Пароль";
+"common.close" = "Закрити";
+"common.generate" = "Згенерувати";
+"common.encrypt" = "Зашифрувати";
+"common.validate" = "Перевірити";
+"common.progress" = "Прогрес";
+"common.poster" = "Зображення";
+"common.busyPassword" = "Обробка пароля…";
+"common.busyCheckingToken" = "Перевірка коду…";
+"common.toastCopiedClipboard" = "Скопійовано. Буфер очиститься через 45 с.";
+
+/* Steps */
+"step.source" = "Джерело";
+"step.phrase" = "Фраза";
+"step.password" = "Пароль";
+"step.codes" = "Коди";
+"step.done" = "Готово";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Нова фраза";
+"encrypt.titleEnter" = "Існуюча фраза";
+"encrypt.subtitleSource" = "З чого почати?";
+"encrypt.subtitleCreate" = "Згенеруйте нову seed-фразу.";
+"encrypt.subtitleEnter" = "Введіть або вставте існуючу seed-фразу.";
+"encrypt.subtitlePassword" = "Оберіть надійний пароль і підтвердіть його.";
+"encrypt.subtitleResult" = "Збережіть коди. Порядок не важливий.";
+"encrypt.sourceNewTitle" = "Нова seed-фраза";
+"encrypt.sourceNewSubtitle" = "Згенерувати та зашифрувати";
+"encrypt.sourceExistingTitle" = "Існуюча seed-фраза";
+"encrypt.sourceExistingSubtitle" = "Ввести або вставити вручну";
+"encrypt.shuffleExport" = "Перемішати при копіюванні / збереженні";
+"encrypt.shuffleExportHint" = "На екрані порядок не змінюється; при експорті — перемішується.";
+"encrypt.toastDone" = "Готово. Зберігайте коди в безпечному місці.";
+"encrypt.toastPhrasePasted" = "Фразу вставлено з буфера обміну.";
+
+/* Phrase */
+"phrase.length" = "Довжина фрази";
+"phrase.notCreated" = "Фразу ще не створено";
+"phrase.notCreatedHint" = "Оберіть довжину та натисніть «Згенерувати».";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Оберіть довжину. За замовчуванням — з налаштувань.";
+"decrypt.subtitlePassword" = "Введіть пароль, який використовувався при шифруванні.";
+"decrypt.subtitleCodes" = "Введіть коди або завантажте файл. Порядок не важливий.";
+"decrypt.subtitleResult" = "Фразу відновлено. Зберігайте її в безпечному місці.";
+"decrypt.passwordHint" = "Має збігатися з налаштуваннями при шифруванні.";
+"decrypt.enterCode" = "Ввести код";
+"decrypt.pickCodesFile" = "Обрати файл кодів (.txt)";
+"decrypt.wordLength" = "Довжина: %d (з налаштувань)";
+"decrypt.toastPhraseRestored" = "Фразу відновлено.";
+"decrypt.toastWordFound" = "Слово %d: позицію знайдено (%d/%d).";
+"decrypt.toastAdded" = "Додано. %d/%d.";
+"decrypt.toastAddedBatch" = "Додано %d. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Слово %d з %d";
+"seed.allWordsEntered" = "Усі слова введено";
+"seed.placeholder" = "Введіть слово або вставте фразу…";
+"seed.hint" = "Підказки з 4-ї літери. Вставте всю фразу (⌘V).";
+"seed.phraseComplete" = "Фраза повна.";
+"seed.helpReplaceClipboard" = "Замінити фразу з буфера обміну";
+"seed.helpPastePhrase" = "Вставити seed-фразу (⇧⌘V)";
+"seed.helpClearAll" = "Очистити всі слова";
+"seed.toastClipboardEmpty" = "Буфер порожній — скопіюйте seed-фразу та спробуйте знову.";
+"seed.toastFillAll" = "Заповніть усі %d слів.";
+"seed.toastValidated" = "Фразу перевірено.";
+
+/* Password */
+"password.minPlaceholder" = "Щонайменше 8 символів";
+"password.confirmPlaceholder" = "Повторіть пароль";
+"password.mismatchInline" = "Паролі не збігаються";
+"password.strength.weak" = "Слабкий";
+"password.strength.fair" = "Середній";
+"password.strength.strong" = "Надійний";
+
+/* Drop zone */
+"dropzone.title" = "Завантажити файл кодів";
+"dropzone.subtitle" = "Перетягніть .txt сюди або натисніть для вибору";
+
+/* Word search */
+"wordSearch.noMatch" = "Немає слова BIP-39 з таким префіксом";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Попередній перегляд";
+"poster.savePNG" = "Зберегти PNG";
+
+/* Import */
+"import.words" = "Слова";
+"import.version" = "Версія";
+"import.iterations" = "Ітерації";
+"import.keyBytes" = "Ключ";
+"import.confirmTitle" = "Налаштування з файлу";
+"import.confirmMessage" = "Застосувати налаштування з файлу для розшифрування?";
+"import.fileLoaded" = "Файл завантажено";
+"import.changeFile" = "Змінити";
+
+/* Word count */
+"wordCount.resetTitle" = "Скинути введені слова?";
+"wordCount.resetMessage" = "Зміна довжини очистить поточну фразу.";
+"wordCount.resetConfirm" = "Скинути";
+"wordCount.label" = "%d слів";
+"wordCount.label21" = "21 слово";
+"wordCount.label24" = "24 слова";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Буфер обміну порожній.";
+"toast.wrongWordCount" = "У буфері %d слів — потрібно 12, 15, 18, 21 або 24.";
+"toast.wordNotInDictionary" = "Слово %d «%@» не знайдено в словнику.";
+
+/* Exit */
+"exit.clearTitle" = "Вийти та очистити дані?";
+"exit.clearConfirm" = "Вийти та очистити";
+"exit.clearMessage" = "Введену фразу та пароль буде видалено з пам'яті.";
+
+/* Onboarding */
+"onboarding.title" = "Як користуватися";
+"onboarding.1" = "Зберігайте пароль окремо від кодів.";
+"onboarding.2" = "Налаштування файлу мають збігатися при шифруванні та розшифруванні.";
+"onboarding.3" = "Додаток працює повністю офлайн.";
+
+/* Language */
+"settings.sectionLanguage" = "Мова";
+"settings.language" = "Мова застосунку";
+"settings.languageSystem" = "Системна";
+"settings.tabGeneral" = "Загальні";
+"settings.tabEncryption" = "Шифрування";
+
+"settings.sectionHelp" = "Довідка";
+"settings.showOnboarding" = "Показати «Як користуватися»";
+
+/* Settings */
+"settings.title" = "Налаштування";
+"settings.sectionFormat" = "Формат";
+"settings.sectionDefaultPhrase" = "Фраза за замовчуванням";
+"settings.sectionPassword" = "Захист паролем";
+"settings.version" = "Версія";
+"settings.defaultPhraseLength" = "Довжина seed-фрази за замовчуванням";
+"settings.compat" = "Налаштування мають збігатися при шифруванні та розшифруванні. Інакше коди не відкриються.";
+"settings.iterations" = "Ітерації";
+"settings.keySize" = "Розмір ключа";
+"settings.iterationsHint" = "Більше ітерацій — повільніше розблокування, складніше підібрати пароль.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Позиція %d, слово приховано";
+"a11y.progress" = "%d з %d";
+"a11y.stepNamed" = "%@, %d з %d";
+"a11y.stepGeneric" = "Крок %d з %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Введіть пароль.";
+"error.hasher.passwordTooShort" = "Пароль занадто короткий — мінімум 8 символів.";
+"error.hasher.keyDerivationFailed" = "Не вдалося обробити пароль.";
+"error.hasher.invalidWordCount" = "Невірна кількість: %d. Потрібно 12, 15, 18, 21 або 24.";
+"error.hasher.unknownWord" = "Слово «%@» відсутнє в словнику.";
+"error.hasher.invalidTokenFormat" = "Невірний формат коду «%@».";
+"error.hasher.tokenNotFound" = "Код не знайдено. Перевірте пароль, довжину та написання.";
+"error.hasher.ambiguousToken" = "Неоднозначне збігання. Перевірте налаштування та пароль.";
+"error.hasher.slotConflict" = "Конфлікт: позиція %d уже зайнята.";
+"error.hasher.passwordMismatch" = "Пароль і підтвердження не збігаються.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Не вдалося отримати криптографічно безпечну випадковість.";
+"error.bip39.invalidEntropyLength" = "Невірна довжина ентропії для BIP-39.";
+"error.bip39.wordlistCorrupted" = "Список BIP-39 пошкоджено (очікувалось 2048 слів).";
+"error.bip39.invalidWord" = "Слово «%@» відсутнє в словнику BIP-39.";
+"error.bip39.invalidChecksum" = "Невірна контрольна сума BIP-39.";
+
+/* Import errors */
+"error.import.unreadable" = "Не вдалося прочитати файл.";
+"error.import.empty" = "Файл порожній.";
+"error.import.noTokens" = "У файлі не знайдено кодів.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Автор: Markus Lind";
+"menu.about" = "Про програму %@";
+"menu.navigate" = "Навігація";
+"about.tagline" = "Офлайн-обфускація для BIP-39 seed-фраз.";
+"about.offline" = "Працює повністю офлайн · нічого не передається мережею";

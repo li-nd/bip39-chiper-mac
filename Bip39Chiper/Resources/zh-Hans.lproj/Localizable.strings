@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "助记词保护";
+"home.subtitle" = "用密码隐藏助记词，或从保存的代码中恢复。";
+"home.encrypt" = "加密";
+"home.decrypt" = "解密";
+"home.encryptSubtitle" = "创建或输入助记词并获取代码";
+"home.decryptSubtitle" = "输入代码和密码以恢复助记词";
+"home.settingsHelp" = "设置";
+"home.settingsSummary" = "当前：%d 词 · %@ 迭代 · 密钥 %d";
+
+/* Common */
+"common.next" = "下一步";
+"common.show" = "显示";
+"common.hide" = "隐藏";
+"common.paste" = "粘贴";
+"common.clear" = "清除";
+"common.copy" = "复制";
+"common.copied" = "已复制";
+"common.toFile" = "保存到文件";
+"common.home" = "主页";
+"common.again" = "再来一次";
+"common.apply" = "应用";
+"common.cancel" = "取消";
+"common.understood" = "知道了";
+"common.add" = "添加";
+"common.password" = "密码";
+"common.close" = "关闭";
+"common.generate" = "生成";
+"common.encrypt" = "加密";
+"common.validate" = "验证";
+"common.progress" = "进度";
+"common.poster" = "图片";
+"common.busyPassword" = "正在处理密码…";
+"common.busyCheckingToken" = "正在检查代码…";
+"common.toastCopiedClipboard" = "已复制。剪贴板将在 45 秒后清除。";
+
+/* Steps */
+"step.source" = "来源";
+"step.phrase" = "助记词";
+"step.password" = "密码";
+"step.codes" = "代码";
+"step.done" = "完成";
+
+/* Encrypt */
+"encrypt.titleCreate" = "新助记词";
+"encrypt.titleEnter" = "已有助记词";
+"encrypt.subtitleSource" = "从哪里开始？";
+"encrypt.subtitleCreate" = "生成新的 BIP-39 助记词。";
+"encrypt.subtitleEnter" = "输入或粘贴已有的助记词。";
+"encrypt.subtitlePassword" = "选择强密码并确认。";
+"encrypt.subtitleResult" = "保存代码。顺序无关紧要。";
+"encrypt.sourceNewTitle" = "新助记词";
+"encrypt.sourceNewSubtitle" = "生成并加密";
+"encrypt.sourceExistingTitle" = "已有助记词";
+"encrypt.sourceExistingSubtitle" = "手动输入或粘贴";
+"encrypt.shuffleExport" = "复制/保存时打乱顺序";
+"encrypt.shuffleExportHint" = "屏幕上顺序不变；导出时会打乱。";
+"encrypt.toastDone" = "完成。请将代码保存在安全的地方。";
+"encrypt.toastPhrasePasted" = "已从剪贴板粘贴助记词。";
+
+/* Phrase */
+"phrase.length" = "助记词长度";
+"phrase.notCreated" = "尚未创建助记词";
+"phrase.notCreatedHint" = "选择长度并点击「生成」。";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "选择助记词长度。默认来自设置。";
+"decrypt.subtitlePassword" = "输入加密时使用的密码。";
+"decrypt.subtitleCodes" = "输入代码或加载文件。顺序无关紧要。";
+"decrypt.subtitleResult" = "助记词已恢复。请妥善保管。";
+"decrypt.passwordHint" = "必须与加密时的设置一致。";
+"decrypt.enterCode" = "输入代码";
+"decrypt.pickCodesFile" = "选择代码文件 (.txt)";
+"decrypt.wordLength" = "长度：%d（来自设置）";
+"decrypt.toastPhraseRestored" = "助记词已恢复。";
+"decrypt.toastWordFound" = "词 %d：已找到位置 (%d/%d)。";
+"decrypt.toastAdded" = "已添加。%d/%d。";
+"decrypt.toastAddedBatch" = "已添加 %d 个。%d/%d。";
+
+/* Seed entry */
+"seed.wordProgress" = "第 %d 词，共 %d 词";
+"seed.allWordsEntered" = "已输入全部词";
+"seed.placeholder" = "输入单词或粘贴助记词…";
+"seed.hint" = "第 4 个字母起显示建议。可粘贴完整助记词 (⌘V)。";
+"seed.phraseComplete" = "助记词完整。";
+"seed.helpReplaceClipboard" = "用剪贴板内容替换助记词";
+"seed.helpPastePhrase" = "粘贴助记词 (⇧⌘V)";
+"seed.helpClearAll" = "清除全部词";
+"seed.toastClipboardEmpty" = "剪贴板为空 — 请复制助记词后重试。";
+"seed.toastFillAll" = "请填写全部 %d 个词。";
+"seed.toastValidated" = "助记词已验证。";
+
+/* Password */
+"password.minPlaceholder" = "至少 8 个字符";
+"password.confirmPlaceholder" = "再次输入密码";
+"password.mismatchInline" = "两次密码不一致";
+"password.strength.weak" = "弱";
+"password.strength.fair" = "一般";
+"password.strength.strong" = "强";
+
+/* Drop zone */
+"dropzone.title" = "加载代码文件";
+"dropzone.subtitle" = "将 .txt 拖放到此处或点击选择";
+
+/* Word search */
+"wordSearch.noMatch" = "没有以此开头的 BIP-39 词";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "图片预览";
+"poster.savePNG" = "保存 PNG";
+
+/* Import */
+"import.words" = "词数";
+"import.version" = "版本";
+"import.iterations" = "迭代次数";
+"import.keyBytes" = "密钥";
+"import.confirmTitle" = "文件中的设置";
+"import.confirmMessage" = "是否应用文件中的设置进行解密？";
+"import.fileLoaded" = "文件已加载";
+"import.changeFile" = "更改";
+
+/* Word count */
+"wordCount.resetTitle" = "重置已输入的词？";
+"wordCount.resetMessage" = "更改长度将清除当前助记词。";
+"wordCount.resetConfirm" = "重置";
+"wordCount.label" = "%d 词";
+"wordCount.label21" = "21 词";
+"wordCount.label24" = "24 词";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "剪贴板为空。";
+"toast.wrongWordCount" = "剪贴板有 %d 个词 — 需要 12、15、18、21 或 24 个。";
+"toast.wordNotInDictionary" = "第 %d 词 «%@» 不在词典中。";
+
+/* Exit */
+"exit.clearTitle" = "退出并清除数据？";
+"exit.clearConfirm" = "退出并清除";
+"exit.clearMessage" = "已输入的助记词和密码将从内存中移除。";
+
+/* Onboarding */
+"onboarding.title" = "使用说明";
+"onboarding.1" = "密码与代码请分开保管。";
+"onboarding.2" = "加密与解密时文件设置必须一致。";
+"onboarding.3" = "本应用完全离线运行。";
+
+/* Language */
+"settings.sectionLanguage" = "语言";
+"settings.language" = "应用语言";
+"settings.languageSystem" = "跟随系统";
+"settings.tabGeneral" = "通用";
+"settings.tabEncryption" = "加密";
+
+"settings.sectionHelp" = "帮助";
+"settings.showOnboarding" = "再次显示使用说明";
+
+/* Settings */
+"settings.title" = "设置";
+"settings.sectionFormat" = "格式";
+"settings.sectionDefaultPhrase" = "默认助记词";
+"settings.sectionPassword" = "密码保护";
+"settings.version" = "版本";
+"settings.defaultPhraseLength" = "默认助记词长度";
+"settings.compat" = "加密与解密时设置必须一致，否则代码无法打开。";
+"settings.iterations" = "迭代次数";
+"settings.keySize" = "密钥大小";
+"settings.iterationsHint" = "迭代次数越多 — 解锁越慢，越难暴力破解。";
+
+/* Accessibility */
+"a11y.hiddenWord" = "位置 %d，词已隐藏";
+"a11y.progress" = "%d / %d";
+"a11y.stepNamed" = "%@，%d / %d";
+"a11y.stepGeneric" = "第 %d 步，共 %d 步";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "请输入密码。";
+"error.hasher.passwordTooShort" = "密码过短 — 至少 8 个字符。";
+"error.hasher.keyDerivationFailed" = "无法处理密码。";
+"error.hasher.invalidWordCount" = "无效数量：%d。需要 12、15、18、21 或 24。";
+"error.hasher.unknownWord" = "词 «%@» 不在词典中。";
+"error.hasher.invalidTokenFormat" = "无效的代码格式 «%@»。";
+"error.hasher.tokenNotFound" = "未找到代码。请检查密码、长度和拼写。";
+"error.hasher.ambiguousToken" = "匹配不明确。请检查设置和密码。";
+"error.hasher.slotConflict" = "冲突：位置 %d 已被占用。";
+"error.hasher.passwordMismatch" = "密码与确认不一致。";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "无法获取密码学安全的随机数。";
+"error.bip39.invalidEntropyLength" = "BIP-39 熵长度无效。";
+"error.bip39.wordlistCorrupted" = "BIP-39 词表损坏（应为 2048 个词）。";
+"error.bip39.invalidWord" = "词 «%@» 不在 BIP-39 词典中。";
+"error.bip39.invalidChecksum" = "BIP-39 校验和无效。";
+
+/* Import errors */
+"error.import.unreadable" = "无法读取文件。";
+"error.import.empty" = "文件为空。";
+"error.import.noTokens" = "文件中未找到代码。";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "作者：Markus Lind";
+"menu.about" = "关于 %@";
+"menu.navigate" = "导航";
+"about.tagline" = "BIP-39 助记词的离线混淆工具。";
+"about.offline" = "完全离线 · 不会通过网络发送任何数据";

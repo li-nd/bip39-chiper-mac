@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Seed ifade koruması";
+"home.subtitle" = "İfadenizi bir parolayla gizleyin veya kayıtlı kodlardan geri yükleyin.";
+"home.encrypt" = "Şifrele";
+"home.decrypt" = "Şifreyi çöz";
+"home.encryptSubtitle" = "İfade oluşturun veya girin ve kodları alın";
+"home.decryptSubtitle" = "İfadeyi geri yüklemek için kodları ve parolayı girin";
+"home.settingsHelp" = "Ayarlar";
+"home.settingsSummary" = "Şu an: %d kelime · %@ iter · anahtar %d";
+
+/* Common */
+"common.next" = "İleri";
+"common.show" = "Göster";
+"common.hide" = "Gizle";
+"common.paste" = "Yapıştır";
+"common.clear" = "Temizle";
+"common.copy" = "Kopyala";
+"common.copied" = "Kopyalandı";
+"common.toFile" = "Dosyaya";
+"common.home" = "Ana sayfa";
+"common.again" = "Yeniden";
+"common.apply" = "Uygula";
+"common.cancel" = "İptal";
+"common.understood" = "Anladım";
+"common.add" = "Ekle";
+"common.password" = "Parola";
+"common.close" = "Kapat";
+"common.generate" = "Oluştur";
+"common.encrypt" = "Şifrele";
+"common.validate" = "Doğrula";
+"common.progress" = "İlerleme";
+"common.poster" = "Görsel";
+"common.busyPassword" = "Parola işleniyor…";
+"common.busyCheckingToken" = "Kod kontrol ediliyor…";
+"common.toastCopiedClipboard" = "Kopyalandı. Pano 45 sn. içinde temizlenecek.";
+
+/* Steps */
+"step.source" = "Kaynak";
+"step.phrase" = "İfade";
+"step.password" = "Parola";
+"step.codes" = "Kodlar";
+"step.done" = "Tamam";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Yeni ifade";
+"encrypt.titleEnter" = "Mevcut ifade";
+"encrypt.subtitleSource" = "Nereden başlayalım?";
+"encrypt.subtitleCreate" = "Yeni bir seed ifadesi oluşturun.";
+"encrypt.subtitleEnter" = "Mevcut seed ifadesini girin veya yapıştırın.";
+"encrypt.subtitlePassword" = "Güçlü bir parola seçin ve onaylayın.";
+"encrypt.subtitleResult" = "Kodları kaydedin. Sıra önemli değil.";
+"encrypt.sourceNewTitle" = "Yeni seed ifadesi";
+"encrypt.sourceNewSubtitle" = "Oluştur ve şifrele";
+"encrypt.sourceExistingTitle" = "Mevcut seed ifadesi";
+"encrypt.sourceExistingSubtitle" = "Elle gir veya yapıştır";
+"encrypt.shuffleExport" = "Kopyalarken / kaydederken karıştır";
+"encrypt.shuffleExportHint" = "Ekranda sıra aynı kalır; dışa aktarımda karışır.";
+"encrypt.toastDone" = "Tamam. Kodları güvenli bir yerde saklayın.";
+"encrypt.toastPhrasePasted" = "İfade panodan yapıştırıldı.";
+
+/* Phrase */
+"phrase.length" = "İfade uzunluğu";
+"phrase.notCreated" = "İfade henüz oluşturulmadı";
+"phrase.notCreatedHint" = "Uzunluğu seçin ve Oluştur'a dokunun.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Uzunluğu seçin. Varsayılan ayarlardan.";
+"decrypt.subtitlePassword" = "Şifrelemede kullanılan parolayı girin.";
+"decrypt.subtitleCodes" = "Kodları girin veya dosya yükleyin. Sıra önemli değil.";
+"decrypt.subtitleResult" = "İfade geri yüklendi. Güvenli saklayın.";
+"decrypt.passwordHint" = "Şifrelemedeki ayarlarla eşleşmelidir.";
+"decrypt.enterCode" = "Kod gir";
+"decrypt.pickCodesFile" = "Kod dosyası seç (.txt)";
+"decrypt.wordLength" = "Uzunluk: %d (ayarlardan)";
+"decrypt.toastPhraseRestored" = "İfade geri yüklendi.";
+"decrypt.toastWordFound" = "Kelime %d: konum bulundu (%d/%d).";
+"decrypt.toastAdded" = "Eklendi. %d/%d.";
+"decrypt.toastAddedBatch" = "%d eklendi. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Kelime %d / %d";
+"seed.allWordsEntered" = "Tüm kelimeler girildi";
+"seed.placeholder" = "Kelime yazın veya ifade yapıştırın…";
+"seed.hint" = "4. harften itibaren öneriler. Tüm ifadeyi yapıştırın (⌘V).";
+"seed.phraseComplete" = "İfade tamamlandı.";
+"seed.helpReplaceClipboard" = "İfadeyi panodan değiştir";
+"seed.helpPastePhrase" = "Seed ifadesini yapıştır (⇧⌘V)";
+"seed.helpClearAll" = "Tüm kelimeleri temizle";
+"seed.toastClipboardEmpty" = "Pano boş — bir seed ifadesi kopyalayın ve tekrar deneyin.";
+"seed.toastFillAll" = "Tüm %d kelimeyi doldurun.";
+"seed.toastValidated" = "İfade doğrulandı.";
+
+/* Password */
+"password.minPlaceholder" = "En az 8 karakter";
+"password.confirmPlaceholder" = "Parolayı tekrarla";
+"password.mismatchInline" = "Parolalar eşleşmiyor";
+"password.strength.weak" = "Zayıf";
+"password.strength.fair" = "Orta";
+"password.strength.strong" = "Güçlü";
+
+/* Drop zone */
+"dropzone.title" = "Kod dosyası yükle";
+"dropzone.subtitle" = ".txt dosyasını buraya bırakın veya seçmek için tıklayın";
+
+/* Word search */
+"wordSearch.noMatch" = "Bu önekte BIP-39 kelimesi yok";
+"wordSearch.enterHint" = "Enter ⏎";
+
+/* Poster */
+"poster.preview" = "Görsel önizleme";
+"poster.savePNG" = "PNG kaydet";
+
+/* Import */
+"import.words" = "Kelimeler";
+"import.version" = "Sürüm";
+"import.iterations" = "Yinelemeler";
+"import.keyBytes" = "Anahtar";
+"import.confirmTitle" = "Dosya ayarları";
+"import.confirmMessage" = "Şifre çözme için dosya ayarları uygulansın mı?";
+"import.fileLoaded" = "Dosya yüklendi";
+"import.changeFile" = "Değiştir";
+
+/* Word count */
+"wordCount.resetTitle" = "Girilen kelimeler sıfırlansın mı?";
+"wordCount.resetMessage" = "Uzunluk değişince mevcut ifade silinir.";
+"wordCount.resetConfirm" = "Sıfırla";
+"wordCount.label" = "%d kelime";
+"wordCount.label21" = "21 kelime";
+"wordCount.label24" = "24 kelime";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Pano boş.";
+"toast.wrongWordCount" = "Panoda %d kelime var — 12, 15, 18, 21 veya 24 gerekir.";
+"toast.wordNotInDictionary" = "Kelime %d «%@» sözlükte bulunamadı.";
+
+/* Exit */
+"exit.clearTitle" = "Çıkıp verileri temizle?";
+"exit.clearConfirm" = "Çık ve temizle";
+"exit.clearMessage" = "Girilen ifade ve parola bellekten silinecek.";
+
+/* Onboarding */
+"onboarding.title" = "Nasıl kullanılır";
+"onboarding.1" = "Parolayı kodlardan ayrı saklayın.";
+"onboarding.2" = "Dosya ayarları şifreleme ve şifre çözmede aynı olmalıdır.";
+"onboarding.3" = "Uygulama tamamen çevrimdışı çalışır.";
+
+/* Language */
+"settings.sectionLanguage" = "Dil";
+"settings.language" = "Uygulama dili";
+"settings.languageSystem" = "Sistem";
+"settings.tabGeneral" = "Genel";
+"settings.tabEncryption" = "Şifreleme";
+
+"settings.sectionHelp" = "Yardım";
+"settings.showOnboarding" = "Tanıtımı tekrar göster";
+
+/* Settings */
+"settings.title" = "Ayarlar";
+"settings.sectionFormat" = "Biçim";
+"settings.sectionDefaultPhrase" = "Varsayılan ifade";
+"settings.sectionPassword" = "Parola koruması";
+"settings.version" = "Sürüm";
+"settings.defaultPhraseLength" = "Varsayılan seed ifade uzunluğu";
+"settings.compat" = "Ayarlar şifreleme ve şifre çözmede eşleşmelidir. Aksi halde kodlar açılmaz.";
+"settings.iterations" = "Yinelemeler";
+"settings.keySize" = "Anahtar boyutu";
+"settings.iterationsHint" = "Daha fazla yineleme — daha yavaş açılış, kaba kuvvete karşı daha zor.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Konum %d, kelime gizli";
+"a11y.progress" = "%d / %d";
+"a11y.stepNamed" = "%@, %d / %d";
+"a11y.stepGeneric" = "Adım %d / %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Parola girin.";
+"error.hasher.passwordTooShort" = "Parola çok kısa — en az 8 karakter.";
+"error.hasher.keyDerivationFailed" = "Parola işlenemedi.";
+"error.hasher.invalidWordCount" = "Geçersiz sayı: %d. 12, 15, 18, 21 veya 24 gerekir.";
+"error.hasher.unknownWord" = "«%@» kelimesi sözlükte yok.";
+"error.hasher.invalidTokenFormat" = "Geçersiz kod biçimi «%@».";
+"error.hasher.tokenNotFound" = "Kod bulunamadı. Parola, uzunluk ve yazımı kontrol edin.";
+"error.hasher.ambiguousToken" = "Belirsiz eşleşme. Ayarları ve parolayı kontrol edin.";
+"error.hasher.slotConflict" = "Çakışma: %d konumu zaten dolu.";
+"error.hasher.passwordMismatch" = "Parola ve onay eşleşmiyor.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Kriptografik olarak güvenli rastgelelik alınamadı.";
+"error.bip39.invalidEntropyLength" = "BIP-39 için geçersiz entropi uzunluğu.";
+"error.bip39.wordlistCorrupted" = "BIP-39 kelime listesi bozuk (2048 kelime bekleniyordu).";
+"error.bip39.invalidWord" = "«%@» kelimesi BIP-39 sözlüğünde yok.";
+"error.bip39.invalidChecksum" = "Geçersiz BIP-39 sağlama toplamı.";
+
+/* Import errors */
+"error.import.unreadable" = "Dosya okunamadı.";
+"error.import.empty" = "Dosya boş.";
+"error.import.noTokens" = "Dosyada kod bulunamadı.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Geliştiren: Markus Lind";
+"menu.about" = "%@ Hakkında";
+"menu.navigate" = "Gezinme";
+"about.tagline" = "BIP-39 seed ifadeleri için çevrimdışı gizleme.";
+"about.offline" = "Tamamen çevrimdışı · ağ üzerinden hiçbir şey gönderilmez";

@@ -1,0 +1,204 @@
+/* Home */
+"home.title" = "Protection de phrase secrète";
+"home.subtitle" = "Masquez votre phrase avec un mot de passe ou restaurez-la depuis vos codes enregistrés.";
+"home.encrypt" = "Chiffrer";
+"home.decrypt" = "Déchiffrer";
+"home.encryptSubtitle" = "Créez ou saisissez votre phrase et obtenez des codes";
+"home.decryptSubtitle" = "Saisissez codes et mot de passe pour restaurer votre phrase";
+"home.settingsHelp" = "Réglages";
+"home.settingsSummary" = "Actuel : %d mots · %@ itér · clé %d";
+
+/* Common */
+"common.next" = "Suivant";
+"common.show" = "Afficher";
+"common.hide" = "Masquer";
+"common.paste" = "Coller";
+"common.clear" = "Effacer";
+"common.copy" = "Copier";
+"common.copied" = "Copié";
+"common.toFile" = "Vers fichier";
+"common.home" = "Accueil";
+"common.again" = "Recommencer";
+"common.apply" = "Appliquer";
+"common.cancel" = "Annuler";
+"common.understood" = "Compris";
+"common.add" = "Ajouter";
+"common.password" = "Mot de passe";
+"common.close" = "Fermer";
+"common.generate" = "Générer";
+"common.encrypt" = "Chiffrer";
+"common.validate" = "Valider";
+"common.progress" = "Progression";
+"common.poster" = "Image";
+"common.busyPassword" = "Traitement du mot de passe…";
+"common.busyCheckingToken" = "Vérification du code…";
+"common.toastCopiedClipboard" = "Copié. Le presse-papiers sera effacé dans 45 s.";
+
+/* Steps */
+"step.source" = "Source";
+"step.phrase" = "Phrase";
+"step.password" = "Mot de passe";
+"step.codes" = "Codes";
+"step.done" = "Terminé";
+
+/* Encrypt */
+"encrypt.titleCreate" = "Nouvelle phrase";
+"encrypt.titleEnter" = "Phrase existante";
+"encrypt.subtitleSource" = "Par où commencer ?";
+"encrypt.subtitleCreate" = "Générez une nouvelle phrase secrète.";
+"encrypt.subtitleEnter" = "Saisissez ou collez une phrase secrète existante.";
+"encrypt.subtitlePassword" = "Choisissez un mot de passe fort et confirmez-le.";
+"encrypt.subtitleResult" = "Enregistrez les codes. L'ordre n'a pas d'importance.";
+"encrypt.sourceNewTitle" = "Nouvelle phrase secrète";
+"encrypt.sourceNewSubtitle" = "Générer et chiffrer";
+"encrypt.sourceExistingTitle" = "Phrase secrète existante";
+"encrypt.sourceExistingSubtitle" = "Saisir ou coller manuellement";
+"encrypt.shuffleExport" = "Mélanger à la copie / enregistrement";
+"encrypt.shuffleExportHint" = "À l'écran l'ordre reste ; à l'export il est mélangé.";
+"encrypt.toastDone" = "Terminé. Conservez les codes en lieu sûr.";
+"encrypt.toastPhrasePasted" = "Phrase collée depuis le presse-papiers.";
+
+/* Phrase */
+"phrase.length" = "Longueur de la phrase";
+"phrase.notCreated" = "Phrase pas encore créée";
+"phrase.notCreatedHint" = "Choisissez la longueur et appuyez sur Générer.";
+/* Decrypt */
+"decrypt.subtitlePhraseLength" = "Choisissez la longueur. Par défaut depuis les réglages.";
+"decrypt.subtitlePassword" = "Saisissez le mot de passe utilisé lors du chiffrement.";
+"decrypt.subtitleCodes" = "Saisissez les codes ou chargez un fichier. L'ordre n'a pas d'importance.";
+"decrypt.subtitleResult" = "Phrase restaurée. Conservez-la en lieu sûr.";
+"decrypt.passwordHint" = "Doit correspondre aux réglages utilisés lors du chiffrement.";
+"decrypt.enterCode" = "Saisir un code";
+"decrypt.pickCodesFile" = "Choisir un fichier de codes (.txt)";
+"decrypt.wordLength" = "Longueur : %d (depuis les réglages)";
+"decrypt.toastPhraseRestored" = "Phrase restaurée.";
+"decrypt.toastWordFound" = "Mot %d : position trouvée (%d/%d).";
+"decrypt.toastAdded" = "Ajouté. %d/%d.";
+"decrypt.toastAddedBatch" = "%d ajoutés. %d/%d.";
+
+/* Seed entry */
+"seed.wordProgress" = "Mot %d sur %d";
+"seed.allWordsEntered" = "Tous les mots saisis";
+"seed.placeholder" = "Saisissez un mot ou collez une phrase…";
+"seed.hint" = "Suggestions à partir de la 4e lettre. Collez la phrase entière (⌘V).";
+"seed.phraseComplete" = "Phrase complète.";
+"seed.helpReplaceClipboard" = "Remplacer la phrase depuis le presse-papiers";
+"seed.helpPastePhrase" = "Coller la phrase secrète (⇧⌘V)";
+"seed.helpClearAll" = "Effacer tous les mots";
+"seed.toastClipboardEmpty" = "Presse-papiers vide — copiez une phrase secrète et réessayez.";
+"seed.toastFillAll" = "Remplissez les %d mots.";
+"seed.toastValidated" = "Phrase vérifiée.";
+
+/* Password */
+"password.minPlaceholder" = "Au moins 8 caractères";
+"password.confirmPlaceholder" = "Répéter le mot de passe";
+"password.mismatchInline" = "Les mots de passe ne correspondent pas";
+"password.strength.weak" = "Faible";
+"password.strength.fair" = "Moyen";
+"password.strength.strong" = "Fort";
+
+/* Drop zone */
+"dropzone.title" = "Charger un fichier de codes";
+"dropzone.subtitle" = "Déposez un .txt ici ou cliquez pour choisir";
+
+/* Word search */
+"wordSearch.noMatch" = "Aucun mot BIP-39 avec ce préfixe";
+"wordSearch.enterHint" = "Entrée ⏎";
+
+/* Poster */
+"poster.preview" = "Aperçu de l'image";
+"poster.savePNG" = "Enregistrer en PNG";
+
+/* Import */
+"import.words" = "Mots";
+"import.version" = "Version";
+"import.iterations" = "Itérations";
+"import.keyBytes" = "Clé";
+"import.confirmTitle" = "Réglages du fichier";
+"import.confirmMessage" = "Appliquer les réglages du fichier pour le déchiffrement ?";
+"import.fileLoaded" = "Fichier chargé";
+"import.changeFile" = "Changer";
+
+/* Word count */
+"wordCount.resetTitle" = "Réinitialiser les mots saisis ?";
+"wordCount.resetMessage" = "Changer la longueur effacera la phrase actuelle.";
+"wordCount.resetConfirm" = "Réinitialiser";
+"wordCount.label" = "%d mots";
+"wordCount.label21" = "21 mots";
+"wordCount.label24" = "24 mots";
+
+/* Toast / clipboard */
+"toast.clipboardEmpty" = "Le presse-papiers est vide.";
+"toast.wrongWordCount" = "Le presse-papiers contient %d mots — il en faut 12, 15, 18, 21 ou 24.";
+"toast.wordNotInDictionary" = "Mot %d « %@ » introuvable dans le dictionnaire.";
+
+/* Exit */
+"exit.clearTitle" = "Quitter et effacer les données ?";
+"exit.clearConfirm" = "Quitter et effacer";
+"exit.clearMessage" = "La phrase et le mot de passe saisis seront supprimés de la mémoire.";
+
+/* Onboarding */
+"onboarding.title" = "Mode d'emploi";
+"onboarding.1" = "Conservez le mot de passe séparément des codes.";
+"onboarding.2" = "Les réglages du fichier doivent correspondre au chiffrement et au déchiffrement.";
+"onboarding.3" = "L'application fonctionne entièrement hors ligne.";
+
+/* Language */
+"settings.sectionLanguage" = "Langue";
+"settings.language" = "Langue de l'app";
+"settings.languageSystem" = "Système";
+"settings.tabGeneral" = "Général";
+"settings.tabEncryption" = "Chiffrement";
+
+"settings.sectionHelp" = "Aide";
+"settings.showOnboarding" = "Afficher l'introduction à nouveau";
+
+/* Settings */
+"settings.title" = "Réglages";
+"settings.sectionFormat" = "Format";
+"settings.sectionDefaultPhrase" = "Phrase par défaut";
+"settings.sectionPassword" = "Protection par mot de passe";
+"settings.version" = "Version";
+"settings.defaultPhraseLength" = "Longueur par défaut de la phrase secrète";
+"settings.compat" = "Les réglages doivent correspondre au chiffrement et au déchiffrement. Sinon les codes ne s'ouvriront pas.";
+"settings.iterations" = "Itérations";
+"settings.keySize" = "Taille de clé";
+"settings.iterationsHint" = "Plus d'itérations — déverrouillage plus lent, plus difficile à forcer.";
+
+/* Accessibility */
+"a11y.hiddenWord" = "Position %d, mot masqué";
+"a11y.progress" = "%d sur %d";
+"a11y.stepNamed" = "%@, %d sur %d";
+"a11y.stepGeneric" = "Étape %d sur %d";
+
+/* Hasher errors */
+"error.hasher.emptyPassword" = "Saisissez un mot de passe.";
+"error.hasher.passwordTooShort" = "Mot de passe trop court — minimum 8 caractères.";
+"error.hasher.keyDerivationFailed" = "Impossible de traiter le mot de passe.";
+"error.hasher.invalidWordCount" = "Nombre invalide : %d. Il faut 12, 15, 18, 21 ou 24.";
+"error.hasher.unknownWord" = "Le mot « %@ » n'est pas dans le dictionnaire.";
+"error.hasher.invalidTokenFormat" = "Format de code invalide « %@ ».";
+"error.hasher.tokenNotFound" = "Code introuvable. Vérifiez mot de passe, longueur et orthographe.";
+"error.hasher.ambiguousToken" = "Correspondance ambiguë. Vérifiez réglages et mot de passe.";
+"error.hasher.slotConflict" = "Conflit : la position %d est déjà occupée.";
+"error.hasher.passwordMismatch" = "Le mot de passe et la confirmation ne correspondent pas.";
+
+/* BIP39 errors */
+"error.bip39.randomGenerationFailed" = "Impossible d'obtenir un aléatoire cryptographiquement sûr.";
+"error.bip39.invalidEntropyLength" = "Longueur d'entropie invalide pour BIP-39.";
+"error.bip39.wordlistCorrupted" = "Liste BIP-39 endommagée (2048 mots attendus).";
+"error.bip39.invalidWord" = "Le mot « %@ » n'est pas dans le dictionnaire BIP-39.";
+"error.bip39.invalidChecksum" = "Somme de contrôle BIP-39 invalide.";
+
+/* Import errors */
+"error.import.unreadable" = "Impossible de lire le fichier.";
+"error.import.empty" = "Le fichier est vide.";
+"error.import.noTokens" = "Aucun code trouvé dans le fichier.";
+
+/* Menu & About */
+"about.copyright" = "Copyright © %@ Markus Lind";
+"about.author" = "Créé par Markus Lind";
+"menu.about" = "À propos de %@";
+"menu.navigate" = "Navigation";
+"about.tagline" = "Obfuscation hors ligne pour phrases secrètes BIP-39.";
+"about.offline" = "Fonctionne entièrement hors ligne · rien n'est envoyé sur le réseau";
